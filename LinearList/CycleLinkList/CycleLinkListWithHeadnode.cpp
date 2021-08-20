@@ -17,3 +17,4 @@ static bool InitList(LinkList &L){
     L = (LNode*) malloc(sizeof(LNode));
     L->next = L;
 }
+

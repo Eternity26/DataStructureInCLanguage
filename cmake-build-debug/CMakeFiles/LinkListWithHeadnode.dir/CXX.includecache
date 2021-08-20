@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/repo/DataStructureInCLanguage/LinkListWithHeadnode.cpp
+stdlib.h
+D:/repo/DataStructureInCLanguage/stdlib.h
+stdio.h
+D:/repo/DataStructureInCLanguage/stdio.h
+

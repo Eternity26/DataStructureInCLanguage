@@ -1,0 +1,12 @@
+"D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\repo\DataStructureInCLanguage
+    -- src/CycleLinkListWithHeadnode.cpp will be compiled to bin/CycleLinkListWithHeadnode
+    -- src/DoubleLinkListWithHeadnode.cpp will be compiled to bin/DoubleLinkListWithHeadnode
+    -- src/LinkListWithHeadnode.cpp will be compiled to bin/LinkListWithHeadnode
+    -- src/LinkListWithoutHeadnode.cpp will be compiled to bin/LinkListWithoutHeadnode
+    -- src/SequenceListInDynamicAllocation.cpp will be compiled to bin/SequenceListInDynamicAllocation
+    -- src/SequenceListInStaticAllocation.cpp will be compiled to bin/SequenceListInStaticAllocation
+    -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+    -- src/main.cpp will be compiled to bin/main
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/repo/DataStructureInCLanguage/cmake-build-debug
