@@ -116,30 +116,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CycleLinkListWithHeadnode
+# Target rules for targets named SequenceListInDynamicAllocation
 
 # Build rule for target.
-CycleLinkListWithHeadnode: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CycleLinkListWithHeadnode
-.PHONY : CycleLinkListWithHeadnode
+SequenceListInDynamicAllocation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SequenceListInDynamicAllocation
+.PHONY : SequenceListInDynamicAllocation
 
 # fast build rule for target.
-CycleLinkListWithHeadnode/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleLinkListWithHeadnode.dir/build
-.PHONY : CycleLinkListWithHeadnode/fast
+SequenceListInDynamicAllocation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/build
+.PHONY : SequenceListInDynamicAllocation/fast
 
 #=============================================================================
-# Target rules for targets named DoubleLinkListWithHeadnode
+# Target rules for targets named CycleDoubleLinkListWithHeadnode
 
 # Build rule for target.
-DoubleLinkListWithHeadnode: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DoubleLinkListWithHeadnode
-.PHONY : DoubleLinkListWithHeadnode
+CycleDoubleLinkListWithHeadnode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CycleDoubleLinkListWithHeadnode
+.PHONY : CycleDoubleLinkListWithHeadnode
 
 # fast build rule for target.
-DoubleLinkListWithHeadnode/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/build
-.PHONY : DoubleLinkListWithHeadnode/fast
+CycleDoubleLinkListWithHeadnode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/build
+.PHONY : CycleDoubleLinkListWithHeadnode/fast
 
 #=============================================================================
 # Target rules for targets named SequenceListInStaticAllocation
@@ -168,6 +168,32 @@ LinkListWithHeadnode/fast:
 .PHONY : LinkListWithHeadnode/fast
 
 #=============================================================================
+# Target rules for targets named CycleLinkListWithHeadnodeAndTailpointer
+
+# Build rule for target.
+CycleLinkListWithHeadnodeAndTailpointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CycleLinkListWithHeadnodeAndTailpointer
+.PHONY : CycleLinkListWithHeadnodeAndTailpointer
+
+# fast build rule for target.
+CycleLinkListWithHeadnodeAndTailpointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/build
+.PHONY : CycleLinkListWithHeadnodeAndTailpointer/fast
+
+#=============================================================================
+# Target rules for targets named DoubleLinkListWithHeadnode
+
+# Build rule for target.
+DoubleLinkListWithHeadnode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DoubleLinkListWithHeadnode
+.PHONY : DoubleLinkListWithHeadnode
+
+# fast build rule for target.
+DoubleLinkListWithHeadnode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/build
+.PHONY : DoubleLinkListWithHeadnode/fast
+
+#=============================================================================
 # Target rules for targets named LinkListWithoutHeadnode
 
 # Build rule for target.
@@ -179,19 +205,6 @@ LinkListWithoutHeadnode: cmake_check_build_system
 LinkListWithoutHeadnode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/build
 .PHONY : LinkListWithoutHeadnode/fast
-
-#=============================================================================
-# Target rules for targets named SequenceListInDynamicAllocation
-
-# Build rule for target.
-SequenceListInDynamicAllocation: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SequenceListInDynamicAllocation
-.PHONY : SequenceListInDynamicAllocation
-
-# fast build rule for target.
-SequenceListInDynamicAllocation/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/build
-.PHONY : SequenceListInDynamicAllocation/fast
 
 #=============================================================================
 # Target rules for targets named CMakeCXXCompilerId
@@ -243,29 +256,53 @@ CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 .PHONY : CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
-LinearList/CycleLinkList/CycleLinkListWithHeadnode.obj: LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.obj
-.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnode.obj
+LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.obj: LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.obj
+.PHONY : LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.obj
 
 # target to build an object file
-LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleLinkListWithHeadnode.dir/LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.obj
-.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.obj
+LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.obj
+.PHONY : LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.obj
 
-LinearList/CycleLinkList/CycleLinkListWithHeadnode.i: LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.i
-.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnode.i
+LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.i: LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.i
+.PHONY : LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.i
 
 # target to preprocess a source file
-LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleLinkListWithHeadnode.dir/LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.i
-.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.i
+LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.i
+.PHONY : LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.i
 
-LinearList/CycleLinkList/CycleLinkListWithHeadnode.s: LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.s
-.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnode.s
+LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.s: LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.s
+.PHONY : LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.s
 
 # target to generate assembly for a file
-LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleLinkListWithHeadnode.dir/LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.s
-.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp.s
+LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.s
+.PHONY : LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.s
+
+LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.obj: LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.obj
+.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.obj
+
+# target to build an object file
+LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.obj
+.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.obj
+
+LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.i: LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.i
+.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.i
+
+# target to preprocess a source file
+LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.i
+.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.i
+
+LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.s: LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.s
+.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.s
+
+# target to generate assembly for a file
+LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.s
+.PHONY : LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.s
 
 LinearList/DoubleLinkList/DoubleLinkListWithHeadnode.obj: LinearList/DoubleLinkList/DoubleLinkListWithHeadnode.cpp.obj
 .PHONY : LinearList/DoubleLinkList/DoubleLinkListWithHeadnode.obj
@@ -420,7 +457,8 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CMakeCXXCompilerId
-	@echo ... CycleLinkListWithHeadnode
+	@echo ... CycleDoubleLinkListWithHeadnode
+	@echo ... CycleLinkListWithHeadnodeAndTailpointer
 	@echo ... DoubleLinkListWithHeadnode
 	@echo ... LinkListWithHeadnode
 	@echo ... LinkListWithoutHeadnode
@@ -430,9 +468,12 @@ help:
 	@echo ... CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.i
 	@echo ... CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.s
-	@echo ... LinearList/CycleLinkList/CycleLinkListWithHeadnode.obj
-	@echo ... LinearList/CycleLinkList/CycleLinkListWithHeadnode.i
-	@echo ... LinearList/CycleLinkList/CycleLinkListWithHeadnode.s
+	@echo ... LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.obj
+	@echo ... LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.i
+	@echo ... LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.s
+	@echo ... LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.obj
+	@echo ... LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.i
+	@echo ... LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.s
 	@echo ... LinearList/DoubleLinkList/DoubleLinkListWithHeadnode.obj
 	@echo ... LinearList/DoubleLinkList/DoubleLinkListWithHeadnode.i
 	@echo ... LinearList/DoubleLinkList/DoubleLinkListWithHeadnode.s

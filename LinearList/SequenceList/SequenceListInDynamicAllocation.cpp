@@ -14,7 +14,7 @@ typedef struct {
     int MAXSIZE;
 } SqList;
 
-static void InitList(SqList &L);
+static bool InitList(SqList &L);
 
 static void DestroyList(SqList &L);
 
@@ -28,10 +28,13 @@ static bool LocateElem(SqList L, ElemType e, int &n);
 
 static void PrintList(SqList L);
 
-static void InitList(SqList &L) {
+static bool InitList(SqList &L) {
     L.data = (ElemType *) malloc(sizeof(ElemType) * INITSIZE);
+    if(L.data == nullptr)
+        return false;
     L.length = 0;
     L.MAXSIZE = INITSIZE;
+    return true;
 }
 
 static void DestroyList(SqList &L) {

@@ -8,7 +8,7 @@
 
 typedef struct DNode {
     Elemtype data;
-    DNode *prior, *next;
+    struct DNode *prior, *next;
 } DNode, *DLinkList;
 
 static bool InitList(DLinkList &L);
@@ -16,8 +16,6 @@ static bool InitList(DLinkList &L);
 static bool InsertNextDNode(DNode *p, DNode *q);
 
 static bool DeleteNextDNode(DNode *p);
-
-static bool DestroyListMaintainingHeadNode(DLinkList &L);
 
 static bool DestroyList(DLinkList &L);
 
@@ -38,18 +36,15 @@ static bool InitList(DLinkList &L) {
     return true;
 }
 
-static bool DestroyListMaintainingHeadNode(DLinkList &L) {
-    while (L->next != nullptr) {
-        DeleteNextDNode(L);
-    }
-}
-
 static bool DestroyList(DLinkList &L) {
+    if(L == nullptr)
+        return false;
     while (L->next != nullptr) {
         DeleteNextDNode(L);
     }
     free(L);
     L = nullptr;
+    return true;
 }
 
 //将q结点插入到p结点后
@@ -77,15 +72,19 @@ static bool DeleteNextDNode(DNode *p) {
 }
 
 static bool TraversePrior(DNode *p) {
+    if(p == nullptr)
+        return false;
     while (p != nullptr) {
         //TODO 遍历时对结点p的具体操作
         p = p->prior;
     }
-    return true
+    return true;
 }
 
 
 static bool TraverseNext(DNode *p) {
+    if(p == nullptr)
+        return false;
     while (p != nullptr) {
         //TODO 遍历时对结点p的具体操作
         p = p->next;
@@ -94,17 +93,23 @@ static bool TraverseNext(DNode *p) {
 }
 
 static bool TraversePriorIgnoringHeadnode(DNode *p) {
+    if(p == nullptr)
+        return false;
     while (p->prior != nullptr) {
         //TODO 遍历时对结点p的具体操作
         p = p->prior;
     }
+    return true;
 }
 
 static bool TraverseNextIgnoringTailnode(DNode *p) {
+    if(p == nullptr)
+        return false;
     while (p->next != nullptr) {
         //TODO 遍历时对结点p的具体操作
         p = p->next;
     }
+    return true;
 }
 
 

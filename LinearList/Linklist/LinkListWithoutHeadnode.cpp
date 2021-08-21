@@ -25,7 +25,7 @@ static bool ListDelete(LinkList &L, int i, Elemtype &e);
 
 static bool DeleteNodeMethod1(LNode *p);
 
-static bool DeleteNodeMethod2(LinkList L, LNode *p);
+static bool DeleteNodeMethod2(LinkList &L, LNode *p);
 
 static bool GetElem(LinkList L, int i, LNode *&p);
 
@@ -39,12 +39,12 @@ static bool ListHeadInsert(LinkList &L);
 
 
 static bool InitList(LinkList &L) {
-    L = NULL;//L是头指针，指向第一个存放数据的结点
+    L = nullptr;//L是头指针，指向第一个存放数据的结点
     return true;
 }
 
 static bool ListInsert(LinkList &L, int i, Elemtype e) {
-    if (i < 1)
+    if (i < 1||L == nullptr)
         return false;
     if (i == 1) {
         LNode *q = (LNode *) malloc(sizeof(LNode));
@@ -66,9 +66,12 @@ static bool ListInsert(LinkList &L, int i, Elemtype e) {
     if (p == nullptr)
         return false;
     InsertNextNode(p, e);
+    return true;
 }
 
 static bool InsertNextNode(LNode *p, Elemtype e) {
+    if(p == nullptr)
+        return false;
     LNode *q = (LNode *) malloc(sizeof(LNode));
     if (q == nullptr)
         return false;
@@ -79,6 +82,8 @@ static bool InsertNextNode(LNode *p, Elemtype e) {
 }
 
 static bool InsertPriorNode(LNode *p, Elemtype e) {
+    if(p == nullptr)
+        return false;
     LNode *q = (LNode *) malloc(sizeof(LNode));
     if (q == nullptr)
         return false;
@@ -90,7 +95,7 @@ static bool InsertPriorNode(LNode *p, Elemtype e) {
 }
 
 static bool ListDelete(LinkList &L, int i, Elemtype &e) {
-    if (i < 1)
+    if (i < 1||L == nullptr)
         return false;
     int j = 1;//j指的是p指向第几个结点
     LNode *p = L;
@@ -122,7 +127,7 @@ static bool DeleteNodeMethod1(LNode *p) {//这种删除结点的方法有局限�
     return true;
 }
 
-static bool DeleteNodeMethod2(LinkList L, LNode *p) {//这种删除结点的方法虽然可以应付删除最后一个结点，
+static bool DeleteNodeMethod2(LinkList &L, LNode *p) {//这种删除结点的方法虽然可以应付删除最后一个结点，
     //但是时间复杂度是O(n)，上面那种时间复杂度是O(1)
     if (L == nullptr || p == nullptr)
         return false;
@@ -135,10 +140,11 @@ static bool DeleteNodeMethod2(LinkList L, LNode *p) {//这种删除结点的方�
     }
     q->next = p->next;
     free(p);
+    return true;
 }
 
 static bool GetElem(LinkList L, int i, LNode *&p) {
-    if (i < 1)
+    if (i < 1||L == nullptr)
         return false;
     int j = 1;
     LNode *q = L;

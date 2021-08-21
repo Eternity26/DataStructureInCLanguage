@@ -51,12 +51,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/CycleLinkListWithHeadnode.dir/DependInfo.cmake"
-  "CMakeFiles/DoubleLinkListWithHeadnode.dir/DependInfo.cmake"
+  "CMakeFiles/SequenceListInDynamicAllocation.dir/DependInfo.cmake"
+  "CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/DependInfo.cmake"
   "CMakeFiles/SequenceListInStaticAllocation.dir/DependInfo.cmake"
   "CMakeFiles/LinkListWithHeadnode.dir/DependInfo.cmake"
+  "CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/DependInfo.cmake"
+  "CMakeFiles/DoubleLinkListWithHeadnode.dir/DependInfo.cmake"
   "CMakeFiles/LinkListWithoutHeadnode.dir/DependInfo.cmake"
-  "CMakeFiles/SequenceListInDynamicAllocation.dir/DependInfo.cmake"
   "CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
   )

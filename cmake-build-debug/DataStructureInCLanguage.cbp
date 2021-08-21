@@ -17,8 +17,8 @@
 					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CycleLinkListWithHeadnode">
-				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CycleLinkListWithHeadnode.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="SequenceListInDynamicAllocation">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/SequenceListInDynamicAllocation.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -32,14 +32,14 @@
 					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CycleLinkListWithHeadnode"/>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 SequenceListInDynamicAllocation"/>
 					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CycleLinkListWithHeadnode/fast">
-				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CycleLinkListWithHeadnode.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="SequenceListInDynamicAllocation/fast">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/SequenceListInDynamicAllocation.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,14 +53,14 @@
 					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CycleLinkListWithHeadnode/fast"/>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 SequenceListInDynamicAllocation/fast"/>
 					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="DoubleLinkListWithHeadnode">
-				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/DoubleLinkListWithHeadnode.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="CycleDoubleLinkListWithHeadnode">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CycleDoubleLinkListWithHeadnode.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -74,14 +74,14 @@
 					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 DoubleLinkListWithHeadnode"/>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CycleDoubleLinkListWithHeadnode"/>
 					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="DoubleLinkListWithHeadnode/fast">
-				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/DoubleLinkListWithHeadnode.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="CycleDoubleLinkListWithHeadnode/fast">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CycleDoubleLinkListWithHeadnode.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -95,7 +95,7 @@
 					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 DoubleLinkListWithHeadnode/fast"/>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CycleDoubleLinkListWithHeadnode/fast"/>
 					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -185,6 +185,90 @@
 					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="CycleLinkListWithHeadnodeAndTailpointer">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CycleLinkListWithHeadnodeAndTailpointer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CycleLinkListWithHeadnodeAndTailpointer"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CycleLinkListWithHeadnodeAndTailpointer/fast">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CycleLinkListWithHeadnodeAndTailpointer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CycleLinkListWithHeadnodeAndTailpointer/fast"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DoubleLinkListWithHeadnode">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/DoubleLinkListWithHeadnode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 DoubleLinkListWithHeadnode"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DoubleLinkListWithHeadnode/fast">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/DoubleLinkListWithHeadnode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 DoubleLinkListWithHeadnode/fast"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="LinkListWithoutHeadnode">
 				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/LinkListWithoutHeadnode.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
@@ -222,48 +306,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 LinkListWithoutHeadnode/fast"/>
-					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="SequenceListInDynamicAllocation">
-				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/SequenceListInDynamicAllocation.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 SequenceListInDynamicAllocation"/>
-					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="SequenceListInDynamicAllocation/fast">
-				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/SequenceListInDynamicAllocation.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 SequenceListInDynamicAllocation/fast"/>
 					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -374,8 +416,11 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/repo/DataStructureInCLanguage/LinearList/CycleLinkList/CycleLinkListWithHeadnode.cpp">
-			<Option target="CycleLinkListWithHeadnode"/>
+		<Unit filename="D:/repo/DataStructureInCLanguage/LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp">
+			<Option target="CycleDoubleLinkListWithHeadnode"/>
+		</Unit>
+		<Unit filename="D:/repo/DataStructureInCLanguage/LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp">
+			<Option target="CycleLinkListWithHeadnodeAndTailpointer"/>
 		</Unit>
 		<Unit filename="D:/repo/DataStructureInCLanguage/LinearList/DoubleLinkList/DoubleLinkListWithHeadnode.cpp">
 			<Option target="DoubleLinkListWithHeadnode"/>
