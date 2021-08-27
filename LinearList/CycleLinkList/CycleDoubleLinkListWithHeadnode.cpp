@@ -12,6 +12,19 @@ typedef struct DNode {
     struct DNode *prior, *next;
 } DNode, *DLinkList;
 
+static bool InitList(DLinkList &L);
+
+static bool IsEmpty(DLinkList L);
+
+static bool IsHead(DLinkList L, DNode *p);
+
+static bool IsTail(DLinkList L, DNode *p);
+
+static bool InsertNextNode(DNode *p, DNode *q);
+
+static bool DeleteNextNode(DNode *p);
+
+
 static bool InitList(DLinkList &L) {
     L = (DNode *) malloc(sizeof(DNode));
     if (L == nullptr)
@@ -21,20 +34,20 @@ static bool InitList(DLinkList &L) {
     return true;
 }
 
-static bool isEmpty(DLinkList L){
-    return (L->next == L&&L->prior == L);
+static bool IsEmpty(DLinkList L) {
+    return (L->next == L && L->prior == L);
 }
 
-static bool isHead(DLinkList L,DNode* p){
+static bool IsHead(DLinkList L, DNode *p) {
     return (p == L);
 }
 
-static bool isTail(DLinkList L,DNode* p){
+static bool IsTail(DLinkList L, DNode *p) {
     return (p->next == L);
 }
 
-static bool InsertNextNode(DNode* p,DNode* q){
-    if(p == nullptr||q == nullptr)
+static bool InsertNextNode(DNode *p, DNode *q) {
+    if (p == nullptr || q == nullptr)
         return false;
     q->next = p->next;
     p->next->prior = q;
@@ -43,10 +56,10 @@ static bool InsertNextNode(DNode* p,DNode* q){
     return true;
 }
 
-static bool DeleteNextNode(DNode* p){
-    if(p == nullptr)
+static bool DeleteNextNode(DNode *p) {
+    if (p == nullptr)
         return false;
-    DNode* q = p->next;
+    DNode *q = p->next;
     p->next = q->next;
     q->next->prior = p;
     free(q);

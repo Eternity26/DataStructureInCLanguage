@@ -6,6 +6,20 @@
     -- src/LinkListWithoutHeadnode.cpp will be compiled to bin/LinkListWithoutHeadnode
     -- src/SequenceListInDynamicAllocation.cpp will be compiled to bin/SequenceListInDynamicAllocation
     -- src/SequenceListInStaticAllocation.cpp will be compiled to bin/SequenceListInStaticAllocation
+    -- src/LinkQueueWithHeadnode.cpp will be compiled to bin/LinkQueueWithHeadnode
+    -- src/LinkQueueWithoutHeadnode.cpp will be compiled to bin/LinkQueueWithoutHeadnode
+    -- src/CycleSequenceQueue1.cpp will be compiled to bin/CycleSequenceQueue1
+    -- src/CycleSequenceQueue2.cpp will be compiled to bin/CycleSequenceQueue2
+    -- src/CycleSequenceQueue3.cpp will be compiled to bin/CycleSequenceQueue3
+    -- src/MatchParenthesesBracketsAndBraces.cpp will be compiled to bin/MatchParenthesesBracketsAndBraces
+    -- src/LinkStackWithHeadnode.cpp will be compiled to bin/LinkStackWithHeadnode
+    -- src/LinkStackWithoutHeadnode.cpp will be compiled to bin/LinkStackWithoutHeadnode
+    -- src/SequenceStack1.cpp will be compiled to bin/SequenceStack1
+    -- src/SequenceStack2.cpp will be compiled to bin/SequenceStack2
+    -- src/SharedSequenceStack.cpp will be compiled to bin/SharedSequenceStack
+    -- src/HeapSequenceString.cpp will be compiled to bin/HeapSequenceString
+    -- src/LinkString.cpp will be compiled to bin/LinkString
+    -- src/StaticSequenceString.cpp will be compiled to bin/StaticSequenceString
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
 -- Configuring done

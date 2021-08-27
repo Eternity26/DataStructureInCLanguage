@@ -51,13 +51,27 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/LinkQueueWithHeadnode.dir/DependInfo.cmake"
   "CMakeFiles/SequenceListInDynamicAllocation.dir/DependInfo.cmake"
   "CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/DependInfo.cmake"
   "CMakeFiles/SequenceListInStaticAllocation.dir/DependInfo.cmake"
+  "CMakeFiles/HeapSequenceString.dir/DependInfo.cmake"
   "CMakeFiles/LinkListWithHeadnode.dir/DependInfo.cmake"
   "CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/DependInfo.cmake"
   "CMakeFiles/DoubleLinkListWithHeadnode.dir/DependInfo.cmake"
   "CMakeFiles/LinkListWithoutHeadnode.dir/DependInfo.cmake"
+  "CMakeFiles/LinkQueueWithoutHeadnode.dir/DependInfo.cmake"
+  "CMakeFiles/CycleSequenceQueue1.dir/DependInfo.cmake"
+  "CMakeFiles/CycleSequenceQueue2.dir/DependInfo.cmake"
+  "CMakeFiles/CycleSequenceQueue3.dir/DependInfo.cmake"
+  "CMakeFiles/MatchParenthesesBracketsAndBraces.dir/DependInfo.cmake"
+  "CMakeFiles/LinkStackWithHeadnode.dir/DependInfo.cmake"
+  "CMakeFiles/LinkStackWithoutHeadnode.dir/DependInfo.cmake"
+  "CMakeFiles/SequenceStack1.dir/DependInfo.cmake"
+  "CMakeFiles/SequenceStack2.dir/DependInfo.cmake"
+  "CMakeFiles/SharedSequenceStack.dir/DependInfo.cmake"
+  "CMakeFiles/LinkString.dir/DependInfo.cmake"
+  "CMakeFiles/StaticSequenceString.dir/DependInfo.cmake"
   "CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
   )

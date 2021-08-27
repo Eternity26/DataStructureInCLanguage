@@ -16,11 +16,11 @@ typedef struct LNode {
 
 static bool InitList(LinkList &L);
 
-static bool isEmpty(LinkList L);
+static bool IsEmpty(LinkList L);
 
-static bool isTail(LinkList L, LNode *p);
+static bool IsTail(LinkList L, LNode *p);
 
-static bool isHead(LinkList L, LNode *p);
+static bool IsHead(LinkList L, LNode *p);
 
 static bool InsertNextNode(LinkList &L, LNode *p, LNode *q);
 
@@ -29,7 +29,7 @@ static bool DeleteNextNode(LinkList &L, LNode *p);
 
 static bool InitList(LinkList &L) {
     L = (LNode *) malloc(sizeof(LNode));
-    if(L == nullptr)
+    if (L == nullptr)
         return false;
     L->next = L;//尾指针，便于对表头和表尾进行操作，设立原因如下：
     //如果只有头指针，那么到达表尾就需要全部遍历O(n)
@@ -37,15 +37,15 @@ static bool InitList(LinkList &L) {
     return true;
 }
 
-static bool isEmpty(LinkList L) {
+static bool IsEmpty(LinkList L) {
     return (L->next == L);
 }
 
-static bool isTail(LinkList L, LNode *p) {
+static bool IsTail(LinkList L, LNode *p) {
     return (p == L);
 }
 
-static bool isHead(LinkList L, LNode *p) {
+static bool IsHead(LinkList L, LNode *p) {
     return (L->next == p);
 }
 
@@ -73,6 +73,6 @@ static bool DeleteNextNode(LinkList &L, LNode *p) {
     return true;
 }
 
-int main(){
+int main() {
 
 }

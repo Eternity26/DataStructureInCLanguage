@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/repo/DataStructureInCLanguage/Stack/Application/MatchParenthesesBracketsAndBraces.cpp
+stdio.h
+D:/repo/DataStructureInCLanguage/Stack/Application/stdio.h
+stdlib.h
+D:/repo/DataStructureInCLanguage/Stack/Application/stdlib.h
+

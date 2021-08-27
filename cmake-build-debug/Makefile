@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named LinkQueueWithHeadnode
+
+# Build rule for target.
+LinkQueueWithHeadnode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkQueueWithHeadnode
+.PHONY : LinkQueueWithHeadnode
+
+# fast build rule for target.
+LinkQueueWithHeadnode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/build
+.PHONY : LinkQueueWithHeadnode/fast
+
+#=============================================================================
 # Target rules for targets named SequenceListInDynamicAllocation
 
 # Build rule for target.
@@ -153,6 +166,19 @@ SequenceListInStaticAllocation: cmake_check_build_system
 SequenceListInStaticAllocation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/build
 .PHONY : SequenceListInStaticAllocation/fast
+
+#=============================================================================
+# Target rules for targets named HeapSequenceString
+
+# Build rule for target.
+HeapSequenceString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HeapSequenceString
+.PHONY : HeapSequenceString
+
+# fast build rule for target.
+HeapSequenceString/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/build
+.PHONY : HeapSequenceString/fast
 
 #=============================================================================
 # Target rules for targets named LinkListWithHeadnode
@@ -205,6 +231,162 @@ LinkListWithoutHeadnode: cmake_check_build_system
 LinkListWithoutHeadnode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/build
 .PHONY : LinkListWithoutHeadnode/fast
+
+#=============================================================================
+# Target rules for targets named LinkQueueWithoutHeadnode
+
+# Build rule for target.
+LinkQueueWithoutHeadnode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkQueueWithoutHeadnode
+.PHONY : LinkQueueWithoutHeadnode
+
+# fast build rule for target.
+LinkQueueWithoutHeadnode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/build
+.PHONY : LinkQueueWithoutHeadnode/fast
+
+#=============================================================================
+# Target rules for targets named CycleSequenceQueue1
+
+# Build rule for target.
+CycleSequenceQueue1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CycleSequenceQueue1
+.PHONY : CycleSequenceQueue1
+
+# fast build rule for target.
+CycleSequenceQueue1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/build
+.PHONY : CycleSequenceQueue1/fast
+
+#=============================================================================
+# Target rules for targets named CycleSequenceQueue2
+
+# Build rule for target.
+CycleSequenceQueue2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CycleSequenceQueue2
+.PHONY : CycleSequenceQueue2
+
+# fast build rule for target.
+CycleSequenceQueue2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/build
+.PHONY : CycleSequenceQueue2/fast
+
+#=============================================================================
+# Target rules for targets named CycleSequenceQueue3
+
+# Build rule for target.
+CycleSequenceQueue3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CycleSequenceQueue3
+.PHONY : CycleSequenceQueue3
+
+# fast build rule for target.
+CycleSequenceQueue3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/build
+.PHONY : CycleSequenceQueue3/fast
+
+#=============================================================================
+# Target rules for targets named MatchParenthesesBracketsAndBraces
+
+# Build rule for target.
+MatchParenthesesBracketsAndBraces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatchParenthesesBracketsAndBraces
+.PHONY : MatchParenthesesBracketsAndBraces
+
+# fast build rule for target.
+MatchParenthesesBracketsAndBraces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/build
+.PHONY : MatchParenthesesBracketsAndBraces/fast
+
+#=============================================================================
+# Target rules for targets named LinkStackWithHeadnode
+
+# Build rule for target.
+LinkStackWithHeadnode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkStackWithHeadnode
+.PHONY : LinkStackWithHeadnode
+
+# fast build rule for target.
+LinkStackWithHeadnode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/build
+.PHONY : LinkStackWithHeadnode/fast
+
+#=============================================================================
+# Target rules for targets named LinkStackWithoutHeadnode
+
+# Build rule for target.
+LinkStackWithoutHeadnode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkStackWithoutHeadnode
+.PHONY : LinkStackWithoutHeadnode
+
+# fast build rule for target.
+LinkStackWithoutHeadnode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/build
+.PHONY : LinkStackWithoutHeadnode/fast
+
+#=============================================================================
+# Target rules for targets named SequenceStack1
+
+# Build rule for target.
+SequenceStack1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SequenceStack1
+.PHONY : SequenceStack1
+
+# fast build rule for target.
+SequenceStack1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/build
+.PHONY : SequenceStack1/fast
+
+#=============================================================================
+# Target rules for targets named SequenceStack2
+
+# Build rule for target.
+SequenceStack2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SequenceStack2
+.PHONY : SequenceStack2
+
+# fast build rule for target.
+SequenceStack2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/build
+.PHONY : SequenceStack2/fast
+
+#=============================================================================
+# Target rules for targets named SharedSequenceStack
+
+# Build rule for target.
+SharedSequenceStack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SharedSequenceStack
+.PHONY : SharedSequenceStack
+
+# fast build rule for target.
+SharedSequenceStack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/build
+.PHONY : SharedSequenceStack/fast
+
+#=============================================================================
+# Target rules for targets named LinkString
+
+# Build rule for target.
+LinkString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkString
+.PHONY : LinkString
+
+# fast build rule for target.
+LinkString/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/build
+.PHONY : LinkString/fast
+
+#=============================================================================
+# Target rules for targets named StaticSequenceString
+
+# Build rule for target.
+StaticSequenceString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StaticSequenceString
+.PHONY : StaticSequenceString
+
+# fast build rule for target.
+StaticSequenceString/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/build
+.PHONY : StaticSequenceString/fast
 
 #=============================================================================
 # Target rules for targets named CMakeCXXCompilerId
@@ -424,6 +606,342 @@ LinearList/SequenceList/SequenceListInStaticAllocation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/LinearList/SequenceList/SequenceListInStaticAllocation.cpp.s
 .PHONY : LinearList/SequenceList/SequenceListInStaticAllocation.cpp.s
 
+Queue/LinkQueue/LinkQueueWithHeadnode.obj: Queue/LinkQueue/LinkQueueWithHeadnode.cpp.obj
+.PHONY : Queue/LinkQueue/LinkQueueWithHeadnode.obj
+
+# target to build an object file
+Queue/LinkQueue/LinkQueueWithHeadnode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Queue/LinkQueue/LinkQueueWithHeadnode.cpp.obj
+.PHONY : Queue/LinkQueue/LinkQueueWithHeadnode.cpp.obj
+
+Queue/LinkQueue/LinkQueueWithHeadnode.i: Queue/LinkQueue/LinkQueueWithHeadnode.cpp.i
+.PHONY : Queue/LinkQueue/LinkQueueWithHeadnode.i
+
+# target to preprocess a source file
+Queue/LinkQueue/LinkQueueWithHeadnode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Queue/LinkQueue/LinkQueueWithHeadnode.cpp.i
+.PHONY : Queue/LinkQueue/LinkQueueWithHeadnode.cpp.i
+
+Queue/LinkQueue/LinkQueueWithHeadnode.s: Queue/LinkQueue/LinkQueueWithHeadnode.cpp.s
+.PHONY : Queue/LinkQueue/LinkQueueWithHeadnode.s
+
+# target to generate assembly for a file
+Queue/LinkQueue/LinkQueueWithHeadnode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Queue/LinkQueue/LinkQueueWithHeadnode.cpp.s
+.PHONY : Queue/LinkQueue/LinkQueueWithHeadnode.cpp.s
+
+Queue/LinkQueue/LinkQueueWithoutHeadnode.obj: Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.obj
+.PHONY : Queue/LinkQueue/LinkQueueWithoutHeadnode.obj
+
+# target to build an object file
+Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.obj
+.PHONY : Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.obj
+
+Queue/LinkQueue/LinkQueueWithoutHeadnode.i: Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.i
+.PHONY : Queue/LinkQueue/LinkQueueWithoutHeadnode.i
+
+# target to preprocess a source file
+Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.i
+.PHONY : Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.i
+
+Queue/LinkQueue/LinkQueueWithoutHeadnode.s: Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.s
+.PHONY : Queue/LinkQueue/LinkQueueWithoutHeadnode.s
+
+# target to generate assembly for a file
+Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.s
+.PHONY : Queue/LinkQueue/LinkQueueWithoutHeadnode.cpp.s
+
+Queue/SequenceQueue/CycleSequenceQueue1.obj: Queue/SequenceQueue/CycleSequenceQueue1.cpp.obj
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue1.obj
+
+# target to build an object file
+Queue/SequenceQueue/CycleSequenceQueue1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Queue/SequenceQueue/CycleSequenceQueue1.cpp.obj
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue1.cpp.obj
+
+Queue/SequenceQueue/CycleSequenceQueue1.i: Queue/SequenceQueue/CycleSequenceQueue1.cpp.i
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue1.i
+
+# target to preprocess a source file
+Queue/SequenceQueue/CycleSequenceQueue1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Queue/SequenceQueue/CycleSequenceQueue1.cpp.i
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue1.cpp.i
+
+Queue/SequenceQueue/CycleSequenceQueue1.s: Queue/SequenceQueue/CycleSequenceQueue1.cpp.s
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue1.s
+
+# target to generate assembly for a file
+Queue/SequenceQueue/CycleSequenceQueue1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Queue/SequenceQueue/CycleSequenceQueue1.cpp.s
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue1.cpp.s
+
+Queue/SequenceQueue/CycleSequenceQueue2.obj: Queue/SequenceQueue/CycleSequenceQueue2.cpp.obj
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue2.obj
+
+# target to build an object file
+Queue/SequenceQueue/CycleSequenceQueue2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Queue/SequenceQueue/CycleSequenceQueue2.cpp.obj
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue2.cpp.obj
+
+Queue/SequenceQueue/CycleSequenceQueue2.i: Queue/SequenceQueue/CycleSequenceQueue2.cpp.i
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue2.i
+
+# target to preprocess a source file
+Queue/SequenceQueue/CycleSequenceQueue2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Queue/SequenceQueue/CycleSequenceQueue2.cpp.i
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue2.cpp.i
+
+Queue/SequenceQueue/CycleSequenceQueue2.s: Queue/SequenceQueue/CycleSequenceQueue2.cpp.s
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue2.s
+
+# target to generate assembly for a file
+Queue/SequenceQueue/CycleSequenceQueue2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Queue/SequenceQueue/CycleSequenceQueue2.cpp.s
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue2.cpp.s
+
+Queue/SequenceQueue/CycleSequenceQueue3.obj: Queue/SequenceQueue/CycleSequenceQueue3.cpp.obj
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue3.obj
+
+# target to build an object file
+Queue/SequenceQueue/CycleSequenceQueue3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Queue/SequenceQueue/CycleSequenceQueue3.cpp.obj
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue3.cpp.obj
+
+Queue/SequenceQueue/CycleSequenceQueue3.i: Queue/SequenceQueue/CycleSequenceQueue3.cpp.i
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue3.i
+
+# target to preprocess a source file
+Queue/SequenceQueue/CycleSequenceQueue3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Queue/SequenceQueue/CycleSequenceQueue3.cpp.i
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue3.cpp.i
+
+Queue/SequenceQueue/CycleSequenceQueue3.s: Queue/SequenceQueue/CycleSequenceQueue3.cpp.s
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue3.s
+
+# target to generate assembly for a file
+Queue/SequenceQueue/CycleSequenceQueue3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Queue/SequenceQueue/CycleSequenceQueue3.cpp.s
+.PHONY : Queue/SequenceQueue/CycleSequenceQueue3.cpp.s
+
+Stack/Application/MatchParenthesesBracketsAndBraces.obj: Stack/Application/MatchParenthesesBracketsAndBraces.cpp.obj
+.PHONY : Stack/Application/MatchParenthesesBracketsAndBraces.obj
+
+# target to build an object file
+Stack/Application/MatchParenthesesBracketsAndBraces.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Stack/Application/MatchParenthesesBracketsAndBraces.cpp.obj
+.PHONY : Stack/Application/MatchParenthesesBracketsAndBraces.cpp.obj
+
+Stack/Application/MatchParenthesesBracketsAndBraces.i: Stack/Application/MatchParenthesesBracketsAndBraces.cpp.i
+.PHONY : Stack/Application/MatchParenthesesBracketsAndBraces.i
+
+# target to preprocess a source file
+Stack/Application/MatchParenthesesBracketsAndBraces.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Stack/Application/MatchParenthesesBracketsAndBraces.cpp.i
+.PHONY : Stack/Application/MatchParenthesesBracketsAndBraces.cpp.i
+
+Stack/Application/MatchParenthesesBracketsAndBraces.s: Stack/Application/MatchParenthesesBracketsAndBraces.cpp.s
+.PHONY : Stack/Application/MatchParenthesesBracketsAndBraces.s
+
+# target to generate assembly for a file
+Stack/Application/MatchParenthesesBracketsAndBraces.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Stack/Application/MatchParenthesesBracketsAndBraces.cpp.s
+.PHONY : Stack/Application/MatchParenthesesBracketsAndBraces.cpp.s
+
+Stack/LinkStack/LinkStackWithHeadnode.obj: Stack/LinkStack/LinkStackWithHeadnode.cpp.obj
+.PHONY : Stack/LinkStack/LinkStackWithHeadnode.obj
+
+# target to build an object file
+Stack/LinkStack/LinkStackWithHeadnode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Stack/LinkStack/LinkStackWithHeadnode.cpp.obj
+.PHONY : Stack/LinkStack/LinkStackWithHeadnode.cpp.obj
+
+Stack/LinkStack/LinkStackWithHeadnode.i: Stack/LinkStack/LinkStackWithHeadnode.cpp.i
+.PHONY : Stack/LinkStack/LinkStackWithHeadnode.i
+
+# target to preprocess a source file
+Stack/LinkStack/LinkStackWithHeadnode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Stack/LinkStack/LinkStackWithHeadnode.cpp.i
+.PHONY : Stack/LinkStack/LinkStackWithHeadnode.cpp.i
+
+Stack/LinkStack/LinkStackWithHeadnode.s: Stack/LinkStack/LinkStackWithHeadnode.cpp.s
+.PHONY : Stack/LinkStack/LinkStackWithHeadnode.s
+
+# target to generate assembly for a file
+Stack/LinkStack/LinkStackWithHeadnode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Stack/LinkStack/LinkStackWithHeadnode.cpp.s
+.PHONY : Stack/LinkStack/LinkStackWithHeadnode.cpp.s
+
+Stack/LinkStack/LinkStackWithoutHeadnode.obj: Stack/LinkStack/LinkStackWithoutHeadnode.cpp.obj
+.PHONY : Stack/LinkStack/LinkStackWithoutHeadnode.obj
+
+# target to build an object file
+Stack/LinkStack/LinkStackWithoutHeadnode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Stack/LinkStack/LinkStackWithoutHeadnode.cpp.obj
+.PHONY : Stack/LinkStack/LinkStackWithoutHeadnode.cpp.obj
+
+Stack/LinkStack/LinkStackWithoutHeadnode.i: Stack/LinkStack/LinkStackWithoutHeadnode.cpp.i
+.PHONY : Stack/LinkStack/LinkStackWithoutHeadnode.i
+
+# target to preprocess a source file
+Stack/LinkStack/LinkStackWithoutHeadnode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Stack/LinkStack/LinkStackWithoutHeadnode.cpp.i
+.PHONY : Stack/LinkStack/LinkStackWithoutHeadnode.cpp.i
+
+Stack/LinkStack/LinkStackWithoutHeadnode.s: Stack/LinkStack/LinkStackWithoutHeadnode.cpp.s
+.PHONY : Stack/LinkStack/LinkStackWithoutHeadnode.s
+
+# target to generate assembly for a file
+Stack/LinkStack/LinkStackWithoutHeadnode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Stack/LinkStack/LinkStackWithoutHeadnode.cpp.s
+.PHONY : Stack/LinkStack/LinkStackWithoutHeadnode.cpp.s
+
+Stack/SequenceStack/SequenceStack1.obj: Stack/SequenceStack/SequenceStack1.cpp.obj
+.PHONY : Stack/SequenceStack/SequenceStack1.obj
+
+# target to build an object file
+Stack/SequenceStack/SequenceStack1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Stack/SequenceStack/SequenceStack1.cpp.obj
+.PHONY : Stack/SequenceStack/SequenceStack1.cpp.obj
+
+Stack/SequenceStack/SequenceStack1.i: Stack/SequenceStack/SequenceStack1.cpp.i
+.PHONY : Stack/SequenceStack/SequenceStack1.i
+
+# target to preprocess a source file
+Stack/SequenceStack/SequenceStack1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Stack/SequenceStack/SequenceStack1.cpp.i
+.PHONY : Stack/SequenceStack/SequenceStack1.cpp.i
+
+Stack/SequenceStack/SequenceStack1.s: Stack/SequenceStack/SequenceStack1.cpp.s
+.PHONY : Stack/SequenceStack/SequenceStack1.s
+
+# target to generate assembly for a file
+Stack/SequenceStack/SequenceStack1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Stack/SequenceStack/SequenceStack1.cpp.s
+.PHONY : Stack/SequenceStack/SequenceStack1.cpp.s
+
+Stack/SequenceStack/SequenceStack2.obj: Stack/SequenceStack/SequenceStack2.cpp.obj
+.PHONY : Stack/SequenceStack/SequenceStack2.obj
+
+# target to build an object file
+Stack/SequenceStack/SequenceStack2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Stack/SequenceStack/SequenceStack2.cpp.obj
+.PHONY : Stack/SequenceStack/SequenceStack2.cpp.obj
+
+Stack/SequenceStack/SequenceStack2.i: Stack/SequenceStack/SequenceStack2.cpp.i
+.PHONY : Stack/SequenceStack/SequenceStack2.i
+
+# target to preprocess a source file
+Stack/SequenceStack/SequenceStack2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Stack/SequenceStack/SequenceStack2.cpp.i
+.PHONY : Stack/SequenceStack/SequenceStack2.cpp.i
+
+Stack/SequenceStack/SequenceStack2.s: Stack/SequenceStack/SequenceStack2.cpp.s
+.PHONY : Stack/SequenceStack/SequenceStack2.s
+
+# target to generate assembly for a file
+Stack/SequenceStack/SequenceStack2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Stack/SequenceStack/SequenceStack2.cpp.s
+.PHONY : Stack/SequenceStack/SequenceStack2.cpp.s
+
+Stack/SequenceStack/SharedSequenceStack.obj: Stack/SequenceStack/SharedSequenceStack.cpp.obj
+.PHONY : Stack/SequenceStack/SharedSequenceStack.obj
+
+# target to build an object file
+Stack/SequenceStack/SharedSequenceStack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Stack/SequenceStack/SharedSequenceStack.cpp.obj
+.PHONY : Stack/SequenceStack/SharedSequenceStack.cpp.obj
+
+Stack/SequenceStack/SharedSequenceStack.i: Stack/SequenceStack/SharedSequenceStack.cpp.i
+.PHONY : Stack/SequenceStack/SharedSequenceStack.i
+
+# target to preprocess a source file
+Stack/SequenceStack/SharedSequenceStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Stack/SequenceStack/SharedSequenceStack.cpp.i
+.PHONY : Stack/SequenceStack/SharedSequenceStack.cpp.i
+
+Stack/SequenceStack/SharedSequenceStack.s: Stack/SequenceStack/SharedSequenceStack.cpp.s
+.PHONY : Stack/SequenceStack/SharedSequenceStack.s
+
+# target to generate assembly for a file
+Stack/SequenceStack/SharedSequenceStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Stack/SequenceStack/SharedSequenceStack.cpp.s
+.PHONY : Stack/SequenceStack/SharedSequenceStack.cpp.s
+
+String/HeapSequenceString.obj: String/HeapSequenceString.cpp.obj
+.PHONY : String/HeapSequenceString.obj
+
+# target to build an object file
+String/HeapSequenceString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/String/HeapSequenceString.cpp.obj
+.PHONY : String/HeapSequenceString.cpp.obj
+
+String/HeapSequenceString.i: String/HeapSequenceString.cpp.i
+.PHONY : String/HeapSequenceString.i
+
+# target to preprocess a source file
+String/HeapSequenceString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/String/HeapSequenceString.cpp.i
+.PHONY : String/HeapSequenceString.cpp.i
+
+String/HeapSequenceString.s: String/HeapSequenceString.cpp.s
+.PHONY : String/HeapSequenceString.s
+
+# target to generate assembly for a file
+String/HeapSequenceString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/String/HeapSequenceString.cpp.s
+.PHONY : String/HeapSequenceString.cpp.s
+
+String/LinkString.obj: String/LinkString.cpp.obj
+.PHONY : String/LinkString.obj
+
+# target to build an object file
+String/LinkString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/String/LinkString.cpp.obj
+.PHONY : String/LinkString.cpp.obj
+
+String/LinkString.i: String/LinkString.cpp.i
+.PHONY : String/LinkString.i
+
+# target to preprocess a source file
+String/LinkString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/String/LinkString.cpp.i
+.PHONY : String/LinkString.cpp.i
+
+String/LinkString.s: String/LinkString.cpp.s
+.PHONY : String/LinkString.s
+
+# target to generate assembly for a file
+String/LinkString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/String/LinkString.cpp.s
+.PHONY : String/LinkString.cpp.s
+
+String/StaticSequenceString.obj: String/StaticSequenceString.cpp.obj
+.PHONY : String/StaticSequenceString.obj
+
+# target to build an object file
+String/StaticSequenceString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/String/StaticSequenceString.cpp.obj
+.PHONY : String/StaticSequenceString.cpp.obj
+
+String/StaticSequenceString.i: String/StaticSequenceString.cpp.i
+.PHONY : String/StaticSequenceString.i
+
+# target to preprocess a source file
+String/StaticSequenceString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/String/StaticSequenceString.cpp.i
+.PHONY : String/StaticSequenceString.cpp.i
+
+String/StaticSequenceString.s: String/StaticSequenceString.cpp.s
+.PHONY : String/StaticSequenceString.s
+
+# target to generate assembly for a file
+String/StaticSequenceString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/String/StaticSequenceString.cpp.s
+.PHONY : String/StaticSequenceString.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -459,11 +977,25 @@ help:
 	@echo ... CMakeCXXCompilerId
 	@echo ... CycleDoubleLinkListWithHeadnode
 	@echo ... CycleLinkListWithHeadnodeAndTailpointer
+	@echo ... CycleSequenceQueue1
+	@echo ... CycleSequenceQueue2
+	@echo ... CycleSequenceQueue3
 	@echo ... DoubleLinkListWithHeadnode
+	@echo ... HeapSequenceString
 	@echo ... LinkListWithHeadnode
 	@echo ... LinkListWithoutHeadnode
+	@echo ... LinkQueueWithHeadnode
+	@echo ... LinkQueueWithoutHeadnode
+	@echo ... LinkStackWithHeadnode
+	@echo ... LinkStackWithoutHeadnode
+	@echo ... LinkString
+	@echo ... MatchParenthesesBracketsAndBraces
 	@echo ... SequenceListInDynamicAllocation
 	@echo ... SequenceListInStaticAllocation
+	@echo ... SequenceStack1
+	@echo ... SequenceStack2
+	@echo ... SharedSequenceStack
+	@echo ... StaticSequenceString
 	@echo ... main
 	@echo ... CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.i
@@ -489,6 +1021,48 @@ help:
 	@echo ... LinearList/SequenceList/SequenceListInStaticAllocation.obj
 	@echo ... LinearList/SequenceList/SequenceListInStaticAllocation.i
 	@echo ... LinearList/SequenceList/SequenceListInStaticAllocation.s
+	@echo ... Queue/LinkQueue/LinkQueueWithHeadnode.obj
+	@echo ... Queue/LinkQueue/LinkQueueWithHeadnode.i
+	@echo ... Queue/LinkQueue/LinkQueueWithHeadnode.s
+	@echo ... Queue/LinkQueue/LinkQueueWithoutHeadnode.obj
+	@echo ... Queue/LinkQueue/LinkQueueWithoutHeadnode.i
+	@echo ... Queue/LinkQueue/LinkQueueWithoutHeadnode.s
+	@echo ... Queue/SequenceQueue/CycleSequenceQueue1.obj
+	@echo ... Queue/SequenceQueue/CycleSequenceQueue1.i
+	@echo ... Queue/SequenceQueue/CycleSequenceQueue1.s
+	@echo ... Queue/SequenceQueue/CycleSequenceQueue2.obj
+	@echo ... Queue/SequenceQueue/CycleSequenceQueue2.i
+	@echo ... Queue/SequenceQueue/CycleSequenceQueue2.s
+	@echo ... Queue/SequenceQueue/CycleSequenceQueue3.obj
+	@echo ... Queue/SequenceQueue/CycleSequenceQueue3.i
+	@echo ... Queue/SequenceQueue/CycleSequenceQueue3.s
+	@echo ... Stack/Application/MatchParenthesesBracketsAndBraces.obj
+	@echo ... Stack/Application/MatchParenthesesBracketsAndBraces.i
+	@echo ... Stack/Application/MatchParenthesesBracketsAndBraces.s
+	@echo ... Stack/LinkStack/LinkStackWithHeadnode.obj
+	@echo ... Stack/LinkStack/LinkStackWithHeadnode.i
+	@echo ... Stack/LinkStack/LinkStackWithHeadnode.s
+	@echo ... Stack/LinkStack/LinkStackWithoutHeadnode.obj
+	@echo ... Stack/LinkStack/LinkStackWithoutHeadnode.i
+	@echo ... Stack/LinkStack/LinkStackWithoutHeadnode.s
+	@echo ... Stack/SequenceStack/SequenceStack1.obj
+	@echo ... Stack/SequenceStack/SequenceStack1.i
+	@echo ... Stack/SequenceStack/SequenceStack1.s
+	@echo ... Stack/SequenceStack/SequenceStack2.obj
+	@echo ... Stack/SequenceStack/SequenceStack2.i
+	@echo ... Stack/SequenceStack/SequenceStack2.s
+	@echo ... Stack/SequenceStack/SharedSequenceStack.obj
+	@echo ... Stack/SequenceStack/SharedSequenceStack.i
+	@echo ... Stack/SequenceStack/SharedSequenceStack.s
+	@echo ... String/HeapSequenceString.obj
+	@echo ... String/HeapSequenceString.i
+	@echo ... String/HeapSequenceString.s
+	@echo ... String/LinkString.obj
+	@echo ... String/LinkString.i
+	@echo ... String/LinkString.s
+	@echo ... String/StaticSequenceString.obj
+	@echo ... String/StaticSequenceString.i
+	@echo ... String/StaticSequenceString.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
