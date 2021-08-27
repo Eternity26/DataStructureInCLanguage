@@ -128,7 +128,7 @@ static int Index(SString S, SString T) {
     if (S.length < T.length)
         return false;
     int i = 1;
-    for (; i <= S.length - T.length + 1; i++) {
+    while (i <= S.length - T.length + 1) {
         SString sub;
         SubString(sub, S, i, T.length);
         if (StrCompare(sub, T) == 0)
