@@ -45,6 +45,7 @@ static bool Push(LiStack &S, Elemtype e) {
     if (S == nullptr) {
         p->next = nullptr;
         S = p;
+        return true;
     }
     p->next = S;
     S = p;
