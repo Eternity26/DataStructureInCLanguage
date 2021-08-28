@@ -6,7 +6,7 @@
 - 常考题型：  
   1. 循环队列元素个数=(rear+MAXSIZE-front)%MAXSIZE
   2. 判满/判空的三种方法：  
-      1. 只有rear和front指针，这时需要牺牲一个存储单元来让队列满的时候rear不等于front，使rear==front的情况只在队列空的时候出现，否则空和满时rear都等于front；判满的条件为(rear+1)%MAXSIZE==front  
+      1. 只有rear和front指针，这时需要牺牲一个存储单元留空来让队列满的时候rear不等于front，使rear==front的情况只在队列空的时候出现，否则空和满时rear都等于front；判满的条件为(rear+1)%MAXSIZE==front  
       2. 除了rear和front还有一个size，size记录当前队列长度。size==0时判空，size==MAXSIZE时判满  
       3. 除了rear和front还有一个tag，tag记录最近一次进行的操作是插入还是删除：1为插入，0为删除。  
   判空条件为：rear==front && tag == 0；  
