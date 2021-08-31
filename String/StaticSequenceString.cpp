@@ -137,3 +137,24 @@ static int Index(SString S, SString T) {
             i++;
     }
 }
+
+//朴素模式匹配
+//static int Index(SString S, SString T) {
+//    if (S.length < T.length)
+//        return false;
+//    int i = 1, j = 1,k = 1;
+//    while (i <= S.length && j <= T.length) {
+//        if (S.ch[i] == T.ch[j]) {
+//            j++;
+//            i++;
+//        } else {
+//            k++;
+//            i = k;
+//            j = 1;
+//        }
+//    }
+//    if(j > T.length)
+//        return k;
+//    else
+//        return 0;
+//}
