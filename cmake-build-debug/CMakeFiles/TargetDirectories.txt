@@ -19,6 +19,8 @@ D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceStack2.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SharedSequenceStack.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkString.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/StaticSequenceString.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkBinaryTree.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceBinaryTree.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/main.dir

@@ -72,6 +72,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SharedSequenceStack.dir/DependInfo.cmake"
   "CMakeFiles/LinkString.dir/DependInfo.cmake"
   "CMakeFiles/StaticSequenceString.dir/DependInfo.cmake"
+  "CMakeFiles/LinkBinaryTree.dir/DependInfo.cmake"
+  "CMakeFiles/SequenceBinaryTree.dir/DependInfo.cmake"
   "CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
   )

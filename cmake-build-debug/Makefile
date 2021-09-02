@@ -389,6 +389,32 @@ StaticSequenceString/fast:
 .PHONY : StaticSequenceString/fast
 
 #=============================================================================
+# Target rules for targets named LinkBinaryTree
+
+# Build rule for target.
+LinkBinaryTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkBinaryTree
+.PHONY : LinkBinaryTree
+
+# fast build rule for target.
+LinkBinaryTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/build
+.PHONY : LinkBinaryTree/fast
+
+#=============================================================================
+# Target rules for targets named SequenceBinaryTree
+
+# Build rule for target.
+SequenceBinaryTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SequenceBinaryTree
+.PHONY : SequenceBinaryTree
+
+# fast build rule for target.
+SequenceBinaryTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/build
+.PHONY : SequenceBinaryTree/fast
+
+#=============================================================================
 # Target rules for targets named CMakeCXXCompilerId
 
 # Build rule for target.
@@ -942,6 +968,54 @@ String/StaticSequenceString.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/String/StaticSequenceString.cpp.s
 .PHONY : String/StaticSequenceString.cpp.s
 
+Tree/LinkBinaryTree.obj: Tree/LinkBinaryTree.cpp.obj
+.PHONY : Tree/LinkBinaryTree.obj
+
+# target to build an object file
+Tree/LinkBinaryTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/LinkBinaryTree.cpp.obj
+.PHONY : Tree/LinkBinaryTree.cpp.obj
+
+Tree/LinkBinaryTree.i: Tree/LinkBinaryTree.cpp.i
+.PHONY : Tree/LinkBinaryTree.i
+
+# target to preprocess a source file
+Tree/LinkBinaryTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/LinkBinaryTree.cpp.i
+.PHONY : Tree/LinkBinaryTree.cpp.i
+
+Tree/LinkBinaryTree.s: Tree/LinkBinaryTree.cpp.s
+.PHONY : Tree/LinkBinaryTree.s
+
+# target to generate assembly for a file
+Tree/LinkBinaryTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/LinkBinaryTree.cpp.s
+.PHONY : Tree/LinkBinaryTree.cpp.s
+
+Tree/SequenceBinaryTree.obj: Tree/SequenceBinaryTree.cpp.obj
+.PHONY : Tree/SequenceBinaryTree.obj
+
+# target to build an object file
+Tree/SequenceBinaryTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/SequenceBinaryTree.cpp.obj
+.PHONY : Tree/SequenceBinaryTree.cpp.obj
+
+Tree/SequenceBinaryTree.i: Tree/SequenceBinaryTree.cpp.i
+.PHONY : Tree/SequenceBinaryTree.i
+
+# target to preprocess a source file
+Tree/SequenceBinaryTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/SequenceBinaryTree.cpp.i
+.PHONY : Tree/SequenceBinaryTree.cpp.i
+
+Tree/SequenceBinaryTree.s: Tree/SequenceBinaryTree.cpp.s
+.PHONY : Tree/SequenceBinaryTree.s
+
+# target to generate assembly for a file
+Tree/SequenceBinaryTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/SequenceBinaryTree.cpp.s
+.PHONY : Tree/SequenceBinaryTree.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -982,6 +1056,7 @@ help:
 	@echo ... CycleSequenceQueue3
 	@echo ... DoubleLinkListWithHeadnode
 	@echo ... HeapSequenceString
+	@echo ... LinkBinaryTree
 	@echo ... LinkListWithHeadnode
 	@echo ... LinkListWithoutHeadnode
 	@echo ... LinkQueueWithHeadnode
@@ -990,6 +1065,7 @@ help:
 	@echo ... LinkStackWithoutHeadnode
 	@echo ... LinkString
 	@echo ... MatchParenthesesBracketsAndBraces
+	@echo ... SequenceBinaryTree
 	@echo ... SequenceListInDynamicAllocation
 	@echo ... SequenceListInStaticAllocation
 	@echo ... SequenceStack1
@@ -1063,6 +1139,12 @@ help:
 	@echo ... String/StaticSequenceString.obj
 	@echo ... String/StaticSequenceString.i
 	@echo ... String/StaticSequenceString.s
+	@echo ... Tree/LinkBinaryTree.obj
+	@echo ... Tree/LinkBinaryTree.i
+	@echo ... Tree/LinkBinaryTree.s
+	@echo ... Tree/SequenceBinaryTree.obj
+	@echo ... Tree/SequenceBinaryTree.i
+	@echo ... Tree/SequenceBinaryTree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
