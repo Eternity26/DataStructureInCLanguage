@@ -376,6 +376,19 @@ LinkString/fast:
 .PHONY : LinkString/fast
 
 #=============================================================================
+# Target rules for targets named LevelTraverse
+
+# Build rule for target.
+LevelTraverse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LevelTraverse
+.PHONY : LevelTraverse
+
+# fast build rule for target.
+LevelTraverse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/build
+.PHONY : LevelTraverse/fast
+
+#=============================================================================
 # Target rules for targets named StaticSequenceString
 
 # Build rule for target.
@@ -400,6 +413,19 @@ LinkBinaryTree: cmake_check_build_system
 LinkBinaryTree/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/build
 .PHONY : LinkBinaryTree/fast
+
+#=============================================================================
+# Target rules for targets named PreOrderTraverse
+
+# Build rule for target.
+PreOrderTraverse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PreOrderTraverse
+.PHONY : PreOrderTraverse
+
+# fast build rule for target.
+PreOrderTraverse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/build
+.PHONY : PreOrderTraverse/fast
 
 #=============================================================================
 # Target rules for targets named SequenceBinaryTree
@@ -968,6 +994,30 @@ String/StaticSequenceString.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/String/StaticSequenceString.cpp.s
 .PHONY : String/StaticSequenceString.cpp.s
 
+Tree/LevelTraverse.obj: Tree/LevelTraverse.cpp.obj
+.PHONY : Tree/LevelTraverse.obj
+
+# target to build an object file
+Tree/LevelTraverse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/LevelTraverse.cpp.obj
+.PHONY : Tree/LevelTraverse.cpp.obj
+
+Tree/LevelTraverse.i: Tree/LevelTraverse.cpp.i
+.PHONY : Tree/LevelTraverse.i
+
+# target to preprocess a source file
+Tree/LevelTraverse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/LevelTraverse.cpp.i
+.PHONY : Tree/LevelTraverse.cpp.i
+
+Tree/LevelTraverse.s: Tree/LevelTraverse.cpp.s
+.PHONY : Tree/LevelTraverse.s
+
+# target to generate assembly for a file
+Tree/LevelTraverse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/LevelTraverse.cpp.s
+.PHONY : Tree/LevelTraverse.cpp.s
+
 Tree/LinkBinaryTree.obj: Tree/LinkBinaryTree.cpp.obj
 .PHONY : Tree/LinkBinaryTree.obj
 
@@ -991,6 +1041,30 @@ Tree/LinkBinaryTree.s: Tree/LinkBinaryTree.cpp.s
 Tree/LinkBinaryTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/LinkBinaryTree.cpp.s
 .PHONY : Tree/LinkBinaryTree.cpp.s
+
+Tree/PreOrderTraverse.obj: Tree/PreOrderTraverse.cpp.obj
+.PHONY : Tree/PreOrderTraverse.obj
+
+# target to build an object file
+Tree/PreOrderTraverse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/PreOrderTraverse.cpp.obj
+.PHONY : Tree/PreOrderTraverse.cpp.obj
+
+Tree/PreOrderTraverse.i: Tree/PreOrderTraverse.cpp.i
+.PHONY : Tree/PreOrderTraverse.i
+
+# target to preprocess a source file
+Tree/PreOrderTraverse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/PreOrderTraverse.cpp.i
+.PHONY : Tree/PreOrderTraverse.cpp.i
+
+Tree/PreOrderTraverse.s: Tree/PreOrderTraverse.cpp.s
+.PHONY : Tree/PreOrderTraverse.s
+
+# target to generate assembly for a file
+Tree/PreOrderTraverse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/PreOrderTraverse.cpp.s
+.PHONY : Tree/PreOrderTraverse.cpp.s
 
 Tree/SequenceBinaryTree.obj: Tree/SequenceBinaryTree.cpp.obj
 .PHONY : Tree/SequenceBinaryTree.obj
@@ -1056,6 +1130,7 @@ help:
 	@echo ... CycleSequenceQueue3
 	@echo ... DoubleLinkListWithHeadnode
 	@echo ... HeapSequenceString
+	@echo ... LevelTraverse
 	@echo ... LinkBinaryTree
 	@echo ... LinkListWithHeadnode
 	@echo ... LinkListWithoutHeadnode
@@ -1065,6 +1140,7 @@ help:
 	@echo ... LinkStackWithoutHeadnode
 	@echo ... LinkString
 	@echo ... MatchParenthesesBracketsAndBraces
+	@echo ... PreOrderTraverse
 	@echo ... SequenceBinaryTree
 	@echo ... SequenceListInDynamicAllocation
 	@echo ... SequenceListInStaticAllocation
@@ -1139,9 +1215,15 @@ help:
 	@echo ... String/StaticSequenceString.obj
 	@echo ... String/StaticSequenceString.i
 	@echo ... String/StaticSequenceString.s
+	@echo ... Tree/LevelTraverse.obj
+	@echo ... Tree/LevelTraverse.i
+	@echo ... Tree/LevelTraverse.s
 	@echo ... Tree/LinkBinaryTree.obj
 	@echo ... Tree/LinkBinaryTree.i
 	@echo ... Tree/LinkBinaryTree.s
+	@echo ... Tree/PreOrderTraverse.obj
+	@echo ... Tree/PreOrderTraverse.i
+	@echo ... Tree/PreOrderTraverse.s
 	@echo ... Tree/SequenceBinaryTree.obj
 	@echo ... Tree/SequenceBinaryTree.i
 	@echo ... Tree/SequenceBinaryTree.s

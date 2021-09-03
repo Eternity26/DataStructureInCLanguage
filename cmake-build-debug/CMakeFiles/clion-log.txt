@@ -20,7 +20,9 @@
     -- src/HeapSequenceString.cpp will be compiled to bin/HeapSequenceString
     -- src/LinkString.cpp will be compiled to bin/LinkString
     -- src/StaticSequenceString.cpp will be compiled to bin/StaticSequenceString
+    -- src/LevelTraverse.cpp will be compiled to bin/LevelTraverse
     -- src/LinkBinaryTree.cpp will be compiled to bin/LinkBinaryTree
+    -- src/PreOrderTraverse.cpp will be compiled to bin/PreOrderTraverse
     -- src/SequenceBinaryTree.cpp will be compiled to bin/SequenceBinaryTree
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/main.cpp will be compiled to bin/main
