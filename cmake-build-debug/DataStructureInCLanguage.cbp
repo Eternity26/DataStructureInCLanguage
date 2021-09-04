@@ -59,6 +59,48 @@
 					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="CreateInThread">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CreateInThread.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CreateInThread"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CreateInThread/fast">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CreateInThread.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CreateInThread/fast"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="SequenceListInDynamicAllocation">
 				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/SequenceListInDynamicAllocation.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
@@ -941,6 +983,90 @@
 					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="CreatePostThread">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CreatePostThread.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CreatePostThread"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CreatePostThread/fast">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CreatePostThread.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CreatePostThread/fast"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CreatePreThread">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CreatePreThread.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CreatePreThread"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CreatePreThread/fast">
+				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/CreatePreThread.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 CreatePreThread/fast"/>
+					<CompileFile command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/repo/DataStructureInCLanguage/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="LinkBinaryTree">
 				<Option output="D:/repo/DataStructureInCLanguage/cmake-build-debug/LinkBinaryTree.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/repo/DataStructureInCLanguage/cmake-build-debug"/>
@@ -1234,6 +1360,15 @@
 		</Unit>
 		<Unit filename="D:/repo/DataStructureInCLanguage/String/StaticSequenceString.cpp">
 			<Option target="StaticSequenceString"/>
+		</Unit>
+		<Unit filename="D:/repo/DataStructureInCLanguage/Tree/CreateInThread.cpp">
+			<Option target="CreateInThread"/>
+		</Unit>
+		<Unit filename="D:/repo/DataStructureInCLanguage/Tree/CreatePostThread.cpp">
+			<Option target="CreatePostThread"/>
+		</Unit>
+		<Unit filename="D:/repo/DataStructureInCLanguage/Tree/CreatePreThread.cpp">
+			<Option target="CreatePreThread"/>
 		</Unit>
 		<Unit filename="D:/repo/DataStructureInCLanguage/Tree/LevelTraverse.cpp">
 			<Option target="LevelTraverse"/>

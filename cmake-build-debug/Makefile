@@ -129,6 +129,19 @@ LinkQueueWithHeadnode/fast:
 .PHONY : LinkQueueWithHeadnode/fast
 
 #=============================================================================
+# Target rules for targets named CreateInThread
+
+# Build rule for target.
+CreateInThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CreateInThread
+.PHONY : CreateInThread
+
+# fast build rule for target.
+CreateInThread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/build
+.PHONY : CreateInThread/fast
+
+#=============================================================================
 # Target rules for targets named SequenceListInDynamicAllocation
 
 # Build rule for target.
@@ -400,6 +413,32 @@ StaticSequenceString: cmake_check_build_system
 StaticSequenceString/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/build
 .PHONY : StaticSequenceString/fast
+
+#=============================================================================
+# Target rules for targets named CreatePostThread
+
+# Build rule for target.
+CreatePostThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CreatePostThread
+.PHONY : CreatePostThread
+
+# fast build rule for target.
+CreatePostThread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/build
+.PHONY : CreatePostThread/fast
+
+#=============================================================================
+# Target rules for targets named CreatePreThread
+
+# Build rule for target.
+CreatePreThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CreatePreThread
+.PHONY : CreatePreThread
+
+# fast build rule for target.
+CreatePreThread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/build
+.PHONY : CreatePreThread/fast
 
 #=============================================================================
 # Target rules for targets named LinkBinaryTree
@@ -994,6 +1033,78 @@ String/StaticSequenceString.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/String/StaticSequenceString.cpp.s
 .PHONY : String/StaticSequenceString.cpp.s
 
+Tree/CreateInThread.obj: Tree/CreateInThread.cpp.obj
+.PHONY : Tree/CreateInThread.obj
+
+# target to build an object file
+Tree/CreateInThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/CreateInThread.cpp.obj
+.PHONY : Tree/CreateInThread.cpp.obj
+
+Tree/CreateInThread.i: Tree/CreateInThread.cpp.i
+.PHONY : Tree/CreateInThread.i
+
+# target to preprocess a source file
+Tree/CreateInThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/CreateInThread.cpp.i
+.PHONY : Tree/CreateInThread.cpp.i
+
+Tree/CreateInThread.s: Tree/CreateInThread.cpp.s
+.PHONY : Tree/CreateInThread.s
+
+# target to generate assembly for a file
+Tree/CreateInThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/CreateInThread.cpp.s
+.PHONY : Tree/CreateInThread.cpp.s
+
+Tree/CreatePostThread.obj: Tree/CreatePostThread.cpp.obj
+.PHONY : Tree/CreatePostThread.obj
+
+# target to build an object file
+Tree/CreatePostThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/CreatePostThread.cpp.obj
+.PHONY : Tree/CreatePostThread.cpp.obj
+
+Tree/CreatePostThread.i: Tree/CreatePostThread.cpp.i
+.PHONY : Tree/CreatePostThread.i
+
+# target to preprocess a source file
+Tree/CreatePostThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/CreatePostThread.cpp.i
+.PHONY : Tree/CreatePostThread.cpp.i
+
+Tree/CreatePostThread.s: Tree/CreatePostThread.cpp.s
+.PHONY : Tree/CreatePostThread.s
+
+# target to generate assembly for a file
+Tree/CreatePostThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/CreatePostThread.cpp.s
+.PHONY : Tree/CreatePostThread.cpp.s
+
+Tree/CreatePreThread.obj: Tree/CreatePreThread.cpp.obj
+.PHONY : Tree/CreatePreThread.obj
+
+# target to build an object file
+Tree/CreatePreThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/CreatePreThread.cpp.obj
+.PHONY : Tree/CreatePreThread.cpp.obj
+
+Tree/CreatePreThread.i: Tree/CreatePreThread.cpp.i
+.PHONY : Tree/CreatePreThread.i
+
+# target to preprocess a source file
+Tree/CreatePreThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/CreatePreThread.cpp.i
+.PHONY : Tree/CreatePreThread.cpp.i
+
+Tree/CreatePreThread.s: Tree/CreatePreThread.cpp.s
+.PHONY : Tree/CreatePreThread.s
+
+# target to generate assembly for a file
+Tree/CreatePreThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/CreatePreThread.cpp.s
+.PHONY : Tree/CreatePreThread.cpp.s
+
 Tree/LevelTraverse.obj: Tree/LevelTraverse.cpp.obj
 .PHONY : Tree/LevelTraverse.obj
 
@@ -1123,6 +1234,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CMakeCXXCompilerId
+	@echo ... CreateInThread
+	@echo ... CreatePostThread
+	@echo ... CreatePreThread
 	@echo ... CycleDoubleLinkListWithHeadnode
 	@echo ... CycleLinkListWithHeadnodeAndTailpointer
 	@echo ... CycleSequenceQueue1
@@ -1215,6 +1329,15 @@ help:
 	@echo ... String/StaticSequenceString.obj
 	@echo ... String/StaticSequenceString.i
 	@echo ... String/StaticSequenceString.s
+	@echo ... Tree/CreateInThread.obj
+	@echo ... Tree/CreateInThread.i
+	@echo ... Tree/CreateInThread.s
+	@echo ... Tree/CreatePostThread.obj
+	@echo ... Tree/CreatePostThread.i
+	@echo ... Tree/CreatePostThread.s
+	@echo ... Tree/CreatePreThread.obj
+	@echo ... Tree/CreatePreThread.i
+	@echo ... Tree/CreatePreThread.s
 	@echo ... Tree/LevelTraverse.obj
 	@echo ... Tree/LevelTraverse.i
 	@echo ... Tree/LevelTraverse.s

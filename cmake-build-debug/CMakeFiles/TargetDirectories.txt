@@ -1,4 +1,5 @@
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkQueueWithHeadnode.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CreateInThread.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceListInDynamicAllocation.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CycleDoubleLinkListWithHeadnode.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceListInStaticAllocation.dir
@@ -20,6 +21,8 @@ D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SharedSequenceStac
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkString.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LevelTraverse.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/StaticSequenceString.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CreatePostThread.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CreatePreThread.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkBinaryTree.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/PreOrderTraverse.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceBinaryTree.dir
