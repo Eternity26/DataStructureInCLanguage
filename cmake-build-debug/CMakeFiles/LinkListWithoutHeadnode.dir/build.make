@@ -78,19 +78,94 @@ CMakeFiles/LinkListWithoutHeadnode.dir/LinearList/Linklist/LinkListWithoutHeadno
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkListWithoutHeadnode.dir/LinearList/Linklist/LinkListWithoutHeadnode.cpp.s"
 	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\LinearList\Linklist\LinkListWithoutHeadnode.cpp -o CMakeFiles\LinkListWithoutHeadnode.dir\LinearList\Linklist\LinkListWithoutHeadnode.cpp.s
 
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.obj: CMakeFiles/LinkListWithoutHeadnode.dir/flags.make
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.obj: ../Tree/FingPreOfInThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FingPreOfInThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp > CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FingPreOfInThread.cpp.i
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp -o CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FingPreOfInThread.cpp.s
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj: CMakeFiles/LinkListWithoutHeadnode.dir/flags.make
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj: ../Tree/FindPostOfPreThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPostOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp > CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPostOfPreThread.cpp.i
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp -o CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPostOfPreThread.cpp.s
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj: CMakeFiles/LinkListWithoutHeadnode.dir/flags.make
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj: ../Tree/FindPreOfPreThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPreOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp > CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPreOfPreThread.cpp.i
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp -o CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPreOfPreThread.cpp.s
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj: CMakeFiles/LinkListWithoutHeadnode.dir/flags.make
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj: ../Tree/FindPreOfPostThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPreOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp > CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPreOfPostThread.cpp.i
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp -o CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPreOfPostThread.cpp.s
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj: CMakeFiles/LinkListWithoutHeadnode.dir/flags.make
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj: ../Tree/FindPostOfPostThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPostOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp > CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPostOfPostThread.cpp.i
+
+CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp -o CMakeFiles\LinkListWithoutHeadnode.dir\Tree\FindPostOfPostThread.cpp.s
+
 # Object files for target LinkListWithoutHeadnode
 LinkListWithoutHeadnode_OBJECTS = \
-"CMakeFiles/LinkListWithoutHeadnode.dir/LinearList/Linklist/LinkListWithoutHeadnode.cpp.obj"
+"CMakeFiles/LinkListWithoutHeadnode.dir/LinearList/Linklist/LinkListWithoutHeadnode.cpp.obj" \
+"CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.obj" \
+"CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj" \
+"CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj" \
+"CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj" \
+"CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj"
 
 # External object files for target LinkListWithoutHeadnode
 LinkListWithoutHeadnode_EXTERNAL_OBJECTS =
 
 LinkListWithoutHeadnode.exe: CMakeFiles/LinkListWithoutHeadnode.dir/LinearList/Linklist/LinkListWithoutHeadnode.cpp.obj
+LinkListWithoutHeadnode.exe: CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.obj
+LinkListWithoutHeadnode.exe: CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj
+LinkListWithoutHeadnode.exe: CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj
+LinkListWithoutHeadnode.exe: CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj
+LinkListWithoutHeadnode.exe: CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj
 LinkListWithoutHeadnode.exe: CMakeFiles/LinkListWithoutHeadnode.dir/build.make
 LinkListWithoutHeadnode.exe: CMakeFiles/LinkListWithoutHeadnode.dir/linklibs.rsp
 LinkListWithoutHeadnode.exe: CMakeFiles/LinkListWithoutHeadnode.dir/objects1.rsp
 LinkListWithoutHeadnode.exe: CMakeFiles/LinkListWithoutHeadnode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LinkListWithoutHeadnode.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable LinkListWithoutHeadnode.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LinkListWithoutHeadnode.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

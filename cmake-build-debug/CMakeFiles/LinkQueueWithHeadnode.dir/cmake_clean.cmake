@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LinkQueueWithHeadnode.dir/Queue/LinkQueue/LinkQueueWithHeadnode.cpp.obj"
+  "CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj"
+  "CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj"
+  "CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj"
+  "CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj"
+  "CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FingPreOfInThread.cpp.obj"
   "LinkQueueWithHeadnode.exe"
   "LinkQueueWithHeadnode.exe.manifest"
   "LinkQueueWithHeadnode.pdb"

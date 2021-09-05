@@ -9,6 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/repo/DataStructureInCLanguage/Stack/LinkStack/LinkStackWithoutHeadnode.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkStackWithoutHeadnode.dir/Stack/LinkStack/LinkStackWithoutHeadnode.cpp.obj"
+  "D:/repo/DataStructureInCLanguage/Tree/FindPostOfPostThread.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj"
+  "D:/repo/DataStructureInCLanguage/Tree/FindPostOfPreThread.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj"
+  "D:/repo/DataStructureInCLanguage/Tree/FindPreOfPostThread.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj"
+  "D:/repo/DataStructureInCLanguage/Tree/FindPreOfPreThread.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj"
+  "D:/repo/DataStructureInCLanguage/Tree/FingPreOfInThread.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

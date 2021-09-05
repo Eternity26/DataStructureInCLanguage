@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LinkListWithoutHeadnode.dir/LinearList/Linklist/LinkListWithoutHeadnode.cpp.obj"
+  "CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj"
+  "CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj"
+  "CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj"
+  "CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj"
+  "CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.obj"
   "LinkListWithoutHeadnode.exe"
   "LinkListWithoutHeadnode.exe.manifest"
   "LinkListWithoutHeadnode.pdb"

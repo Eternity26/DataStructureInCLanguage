@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SequenceListInStaticAllocation.dir/LinearList/SequenceList/SequenceListInStaticAllocation.cpp.obj"
+  "CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.obj"
+  "CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.obj"
+  "CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.obj"
+  "CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.obj"
+  "CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.obj"
   "SequenceListInStaticAllocation.exe"
   "SequenceListInStaticAllocation.exe.manifest"
   "SequenceListInStaticAllocation.pdb"

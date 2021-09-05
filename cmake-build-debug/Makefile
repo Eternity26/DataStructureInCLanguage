@@ -155,6 +155,19 @@ SequenceListInDynamicAllocation/fast:
 .PHONY : SequenceListInDynamicAllocation/fast
 
 #=============================================================================
+# Target rules for targets named FindPostOfPreThread
+
+# Build rule for target.
+FindPostOfPreThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FindPostOfPreThread
+.PHONY : FindPostOfPreThread
+
+# fast build rule for target.
+FindPostOfPreThread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/build
+.PHONY : FindPostOfPreThread/fast
+
+#=============================================================================
 # Target rules for targets named CycleDoubleLinkListWithHeadnode
 
 # Build rule for target.
@@ -205,6 +218,19 @@ LinkListWithHeadnode: cmake_check_build_system
 LinkListWithHeadnode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/build
 .PHONY : LinkListWithHeadnode/fast
+
+#=============================================================================
+# Target rules for targets named FindPreOfPreThread
+
+# Build rule for target.
+FindPreOfPreThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FindPreOfPreThread
+.PHONY : FindPreOfPreThread
+
+# fast build rule for target.
+FindPreOfPreThread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/build
+.PHONY : FindPreOfPreThread/fast
 
 #=============================================================================
 # Target rules for targets named CycleLinkListWithHeadnodeAndTailpointer
@@ -350,6 +376,19 @@ SequenceStack1/fast:
 .PHONY : SequenceStack1/fast
 
 #=============================================================================
+# Target rules for targets named FingPreOfInThread
+
+# Build rule for target.
+FingPreOfInThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FingPreOfInThread
+.PHONY : FingPreOfInThread
+
+# fast build rule for target.
+FingPreOfInThread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/build
+.PHONY : FingPreOfInThread/fast
+
+#=============================================================================
 # Target rules for targets named SequenceStack2
 
 # Build rule for target.
@@ -439,6 +478,45 @@ CreatePreThread: cmake_check_build_system
 CreatePreThread/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/build
 .PHONY : CreatePreThread/fast
+
+#=============================================================================
+# Target rules for targets named FindPostOfInThread
+
+# Build rule for target.
+FindPostOfInThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FindPostOfInThread
+.PHONY : FindPostOfInThread
+
+# fast build rule for target.
+FindPostOfInThread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/build
+.PHONY : FindPostOfInThread/fast
+
+#=============================================================================
+# Target rules for targets named FindPostOfPostThread
+
+# Build rule for target.
+FindPostOfPostThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FindPostOfPostThread
+.PHONY : FindPostOfPostThread
+
+# fast build rule for target.
+FindPostOfPostThread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/build
+.PHONY : FindPostOfPostThread/fast
+
+#=============================================================================
+# Target rules for targets named FindPreOfPostThread
+
+# Build rule for target.
+FindPreOfPostThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FindPreOfPostThread
+.PHONY : FindPreOfPostThread
+
+# fast build rule for target.
+FindPreOfPostThread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/build
+.PHONY : FindPreOfPostThread/fast
 
 #=============================================================================
 # Target rules for targets named LinkBinaryTree
@@ -1105,6 +1183,675 @@ Tree/CreatePreThread.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/CreatePreThread.cpp.s
 .PHONY : Tree/CreatePreThread.cpp.s
 
+Tree/FindPostOfInThread.obj: Tree/FindPostOfInThread.cpp.obj
+.PHONY : Tree/FindPostOfInThread.obj
+
+# target to build an object file
+Tree/FindPostOfInThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfInThread.cpp.obj
+.PHONY : Tree/FindPostOfInThread.cpp.obj
+
+Tree/FindPostOfInThread.i: Tree/FindPostOfInThread.cpp.i
+.PHONY : Tree/FindPostOfInThread.i
+
+# target to preprocess a source file
+Tree/FindPostOfInThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfInThread.cpp.i
+.PHONY : Tree/FindPostOfInThread.cpp.i
+
+Tree/FindPostOfInThread.s: Tree/FindPostOfInThread.cpp.s
+.PHONY : Tree/FindPostOfInThread.s
+
+# target to generate assembly for a file
+Tree/FindPostOfInThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfInThread.cpp.s
+.PHONY : Tree/FindPostOfInThread.cpp.s
+
+Tree/FindPostOfPostThread.obj: Tree/FindPostOfPostThread.cpp.obj
+.PHONY : Tree/FindPostOfPostThread.obj
+
+# target to build an object file
+Tree/FindPostOfPostThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPostOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.obj
+.PHONY : Tree/FindPostOfPostThread.cpp.obj
+
+Tree/FindPostOfPostThread.i: Tree/FindPostOfPostThread.cpp.i
+.PHONY : Tree/FindPostOfPostThread.i
+
+# target to preprocess a source file
+Tree/FindPostOfPostThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPostOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.i
+.PHONY : Tree/FindPostOfPostThread.cpp.i
+
+Tree/FindPostOfPostThread.s: Tree/FindPostOfPostThread.cpp.s
+.PHONY : Tree/FindPostOfPostThread.s
+
+# target to generate assembly for a file
+Tree/FindPostOfPostThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPostOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.s
+.PHONY : Tree/FindPostOfPostThread.cpp.s
+
+Tree/FindPostOfPreThread.obj: Tree/FindPostOfPreThread.cpp.obj
+.PHONY : Tree/FindPostOfPreThread.obj
+
+# target to build an object file
+Tree/FindPostOfPreThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPostOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.obj
+.PHONY : Tree/FindPostOfPreThread.cpp.obj
+
+Tree/FindPostOfPreThread.i: Tree/FindPostOfPreThread.cpp.i
+.PHONY : Tree/FindPostOfPreThread.i
+
+# target to preprocess a source file
+Tree/FindPostOfPreThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPostOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.i
+.PHONY : Tree/FindPostOfPreThread.cpp.i
+
+Tree/FindPostOfPreThread.s: Tree/FindPostOfPreThread.cpp.s
+.PHONY : Tree/FindPostOfPreThread.s
+
+# target to generate assembly for a file
+Tree/FindPostOfPreThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPostOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.s
+.PHONY : Tree/FindPostOfPreThread.cpp.s
+
+Tree/FindPreOfPostThread.obj: Tree/FindPreOfPostThread.cpp.obj
+.PHONY : Tree/FindPreOfPostThread.obj
+
+# target to build an object file
+Tree/FindPreOfPostThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPreOfPostThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.obj
+.PHONY : Tree/FindPreOfPostThread.cpp.obj
+
+Tree/FindPreOfPostThread.i: Tree/FindPreOfPostThread.cpp.i
+.PHONY : Tree/FindPreOfPostThread.i
+
+# target to preprocess a source file
+Tree/FindPreOfPostThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPreOfPostThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.i
+.PHONY : Tree/FindPreOfPostThread.cpp.i
+
+Tree/FindPreOfPostThread.s: Tree/FindPreOfPostThread.cpp.s
+.PHONY : Tree/FindPreOfPostThread.s
+
+# target to generate assembly for a file
+Tree/FindPreOfPostThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPreOfPostThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.s
+.PHONY : Tree/FindPreOfPostThread.cpp.s
+
+Tree/FindPreOfPreThread.obj: Tree/FindPreOfPreThread.cpp.obj
+.PHONY : Tree/FindPreOfPreThread.obj
+
+# target to build an object file
+Tree/FindPreOfPreThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPreOfPreThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.obj
+.PHONY : Tree/FindPreOfPreThread.cpp.obj
+
+Tree/FindPreOfPreThread.i: Tree/FindPreOfPreThread.cpp.i
+.PHONY : Tree/FindPreOfPreThread.i
+
+# target to preprocess a source file
+Tree/FindPreOfPreThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPreOfPreThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.i
+.PHONY : Tree/FindPreOfPreThread.cpp.i
+
+Tree/FindPreOfPreThread.s: Tree/FindPreOfPreThread.cpp.s
+.PHONY : Tree/FindPreOfPreThread.s
+
+# target to generate assembly for a file
+Tree/FindPreOfPreThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPreOfPreThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.s
+.PHONY : Tree/FindPreOfPreThread.cpp.s
+
+Tree/FingPreOfInThread.obj: Tree/FingPreOfInThread.cpp.obj
+.PHONY : Tree/FingPreOfInThread.obj
+
+# target to build an object file
+Tree/FingPreOfInThread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FingPreOfInThread.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.obj
+.PHONY : Tree/FingPreOfInThread.cpp.obj
+
+Tree/FingPreOfInThread.i: Tree/FingPreOfInThread.cpp.i
+.PHONY : Tree/FingPreOfInThread.i
+
+# target to preprocess a source file
+Tree/FingPreOfInThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FingPreOfInThread.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.i
+.PHONY : Tree/FingPreOfInThread.cpp.i
+
+Tree/FingPreOfInThread.s: Tree/FingPreOfInThread.cpp.s
+.PHONY : Tree/FingPreOfInThread.s
+
+# target to generate assembly for a file
+Tree/FingPreOfInThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/Tree/FingPreOfInThread.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.s
+.PHONY : Tree/FingPreOfInThread.cpp.s
+
 Tree/LevelTraverse.obj: Tree/LevelTraverse.cpp.obj
 .PHONY : Tree/LevelTraverse.obj
 
@@ -1243,6 +1990,12 @@ help:
 	@echo ... CycleSequenceQueue2
 	@echo ... CycleSequenceQueue3
 	@echo ... DoubleLinkListWithHeadnode
+	@echo ... FindPostOfInThread
+	@echo ... FindPostOfPostThread
+	@echo ... FindPostOfPreThread
+	@echo ... FindPreOfPostThread
+	@echo ... FindPreOfPreThread
+	@echo ... FingPreOfInThread
 	@echo ... HeapSequenceString
 	@echo ... LevelTraverse
 	@echo ... LinkBinaryTree
@@ -1338,6 +2091,24 @@ help:
 	@echo ... Tree/CreatePreThread.obj
 	@echo ... Tree/CreatePreThread.i
 	@echo ... Tree/CreatePreThread.s
+	@echo ... Tree/FindPostOfInThread.obj
+	@echo ... Tree/FindPostOfInThread.i
+	@echo ... Tree/FindPostOfInThread.s
+	@echo ... Tree/FindPostOfPostThread.obj
+	@echo ... Tree/FindPostOfPostThread.i
+	@echo ... Tree/FindPostOfPostThread.s
+	@echo ... Tree/FindPostOfPreThread.obj
+	@echo ... Tree/FindPostOfPreThread.i
+	@echo ... Tree/FindPostOfPreThread.s
+	@echo ... Tree/FindPreOfPostThread.obj
+	@echo ... Tree/FindPreOfPostThread.i
+	@echo ... Tree/FindPreOfPostThread.s
+	@echo ... Tree/FindPreOfPreThread.obj
+	@echo ... Tree/FindPreOfPreThread.i
+	@echo ... Tree/FindPreOfPreThread.s
+	@echo ... Tree/FingPreOfInThread.obj
+	@echo ... Tree/FingPreOfInThread.i
+	@echo ... Tree/FingPreOfInThread.s
 	@echo ... Tree/LevelTraverse.obj
 	@echo ... Tree/LevelTraverse.i
 	@echo ... Tree/LevelTraverse.s

@@ -23,6 +23,12 @@
     -- src/CreateInThread.cpp will be compiled to bin/CreateInThread
     -- src/CreatePostThread.cpp will be compiled to bin/CreatePostThread
     -- src/CreatePreThread.cpp will be compiled to bin/CreatePreThread
+    -- src/FindPostOfInThread.cpp will be compiled to bin/FindPostOfInThread
+    -- src/FindPostOfPostThread.cpp will be compiled to bin/FindPostOfPostThread
+    -- src/FindPostOfPreThread.cpp will be compiled to bin/FindPostOfPreThread
+    -- src/FindPreOfPostThread.cpp will be compiled to bin/FindPreOfPostThread
+    -- src/FindPreOfPreThread.cpp will be compiled to bin/FindPreOfPreThread
+    -- src/FingPreOfInThread.cpp will be compiled to bin/FingPreOfInThread
     -- src/LevelTraverse.cpp will be compiled to bin/LevelTraverse
     -- src/LinkBinaryTree.cpp will be compiled to bin/LinkBinaryTree
     -- src/PreOrderTraverse.cpp will be compiled to bin/PreOrderTraverse

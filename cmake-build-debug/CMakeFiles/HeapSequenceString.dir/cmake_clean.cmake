@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HeapSequenceString.dir/String/HeapSequenceString.cpp.obj"
+  "CMakeFiles/HeapSequenceString.dir/Tree/FindPostOfPostThread.cpp.obj"
+  "CMakeFiles/HeapSequenceString.dir/Tree/FindPostOfPreThread.cpp.obj"
+  "CMakeFiles/HeapSequenceString.dir/Tree/FindPreOfPostThread.cpp.obj"
+  "CMakeFiles/HeapSequenceString.dir/Tree/FindPreOfPreThread.cpp.obj"
+  "CMakeFiles/HeapSequenceString.dir/Tree/FingPreOfInThread.cpp.obj"
   "HeapSequenceString.exe"
   "HeapSequenceString.exe.manifest"
   "HeapSequenceString.pdb"

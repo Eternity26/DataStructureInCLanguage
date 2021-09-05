@@ -78,19 +78,94 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\main.cpp -o CMakeFiles\main.dir\main.cpp.s
 
+CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.obj: ../Tree/FingPreOfInThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\Tree\FingPreOfInThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp
+
+CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp > CMakeFiles\main.dir\Tree\FingPreOfInThread.cpp.i
+
+CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp -o CMakeFiles\main.dir\Tree\FingPreOfInThread.cpp.s
+
+CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.obj: ../Tree/FindPostOfPreThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\Tree\FindPostOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp
+
+CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp > CMakeFiles\main.dir\Tree\FindPostOfPreThread.cpp.i
+
+CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp -o CMakeFiles\main.dir\Tree\FindPostOfPreThread.cpp.s
+
+CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.obj: ../Tree/FindPreOfPreThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\Tree\FindPreOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp
+
+CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp > CMakeFiles\main.dir\Tree\FindPreOfPreThread.cpp.i
+
+CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp -o CMakeFiles\main.dir\Tree\FindPreOfPreThread.cpp.s
+
+CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.obj: ../Tree/FindPreOfPostThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\Tree\FindPreOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp
+
+CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp > CMakeFiles\main.dir\Tree\FindPreOfPostThread.cpp.i
+
+CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp -o CMakeFiles\main.dir\Tree\FindPreOfPostThread.cpp.s
+
+CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.obj: ../Tree/FindPostOfPostThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.obj"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\Tree\FindPostOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp
+
+CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.i"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp > CMakeFiles\main.dir\Tree\FindPostOfPostThread.cpp.i
+
+CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.s"
+	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp -o CMakeFiles\main.dir\Tree\FindPostOfPostThread.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.cpp.obj"
+"CMakeFiles/main.dir/main.cpp.obj" \
+"CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.obj" \
+"CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.obj" \
+"CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.obj" \
+"CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.obj" \
+"CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/main.cpp.obj
+main.exe: CMakeFiles/main.dir/Tree/FingPreOfInThread.cpp.obj
+main.exe: CMakeFiles/main.dir/Tree/FindPostOfPreThread.cpp.obj
+main.exe: CMakeFiles/main.dir/Tree/FindPreOfPreThread.cpp.obj
+main.exe: CMakeFiles/main.dir/Tree/FindPreOfPostThread.cpp.obj
+main.exe: CMakeFiles/main.dir/Tree/FindPostOfPostThread.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linklibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
