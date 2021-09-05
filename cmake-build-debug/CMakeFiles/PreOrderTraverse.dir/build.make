@@ -78,94 +78,19 @@ CMakeFiles/PreOrderTraverse.dir/Tree/PreOrderTraverse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PreOrderTraverse.dir/Tree/PreOrderTraverse.cpp.s"
 	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\PreOrderTraverse.cpp -o CMakeFiles\PreOrderTraverse.dir\Tree\PreOrderTraverse.cpp.s
 
-CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.obj: CMakeFiles/PreOrderTraverse.dir/flags.make
-CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.obj: ../Tree/FingPreOfInThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PreOrderTraverse.dir\Tree\FingPreOfInThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp > CMakeFiles\PreOrderTraverse.dir\Tree\FingPreOfInThread.cpp.i
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp -o CMakeFiles\PreOrderTraverse.dir\Tree\FingPreOfInThread.cpp.s
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.obj: CMakeFiles/PreOrderTraverse.dir/flags.make
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.obj: ../Tree/FindPostOfPreThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PreOrderTraverse.dir\Tree\FindPostOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp > CMakeFiles\PreOrderTraverse.dir\Tree\FindPostOfPreThread.cpp.i
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp -o CMakeFiles\PreOrderTraverse.dir\Tree\FindPostOfPreThread.cpp.s
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.obj: CMakeFiles/PreOrderTraverse.dir/flags.make
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.obj: ../Tree/FindPreOfPreThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PreOrderTraverse.dir\Tree\FindPreOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp > CMakeFiles\PreOrderTraverse.dir\Tree\FindPreOfPreThread.cpp.i
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp -o CMakeFiles\PreOrderTraverse.dir\Tree\FindPreOfPreThread.cpp.s
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.obj: CMakeFiles/PreOrderTraverse.dir/flags.make
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.obj: ../Tree/FindPreOfPostThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PreOrderTraverse.dir\Tree\FindPreOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp > CMakeFiles\PreOrderTraverse.dir\Tree\FindPreOfPostThread.cpp.i
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp -o CMakeFiles\PreOrderTraverse.dir\Tree\FindPreOfPostThread.cpp.s
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.obj: CMakeFiles/PreOrderTraverse.dir/flags.make
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.obj: ../Tree/FindPostOfPostThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PreOrderTraverse.dir\Tree\FindPostOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp > CMakeFiles\PreOrderTraverse.dir\Tree\FindPostOfPostThread.cpp.i
-
-CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp -o CMakeFiles\PreOrderTraverse.dir\Tree\FindPostOfPostThread.cpp.s
-
 # Object files for target PreOrderTraverse
 PreOrderTraverse_OBJECTS = \
-"CMakeFiles/PreOrderTraverse.dir/Tree/PreOrderTraverse.cpp.obj" \
-"CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.obj" \
-"CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.obj" \
-"CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.obj" \
-"CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.obj" \
-"CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.obj"
+"CMakeFiles/PreOrderTraverse.dir/Tree/PreOrderTraverse.cpp.obj"
 
 # External object files for target PreOrderTraverse
 PreOrderTraverse_EXTERNAL_OBJECTS =
 
 PreOrderTraverse.exe: CMakeFiles/PreOrderTraverse.dir/Tree/PreOrderTraverse.cpp.obj
-PreOrderTraverse.exe: CMakeFiles/PreOrderTraverse.dir/Tree/FingPreOfInThread.cpp.obj
-PreOrderTraverse.exe: CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPreThread.cpp.obj
-PreOrderTraverse.exe: CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPreThread.cpp.obj
-PreOrderTraverse.exe: CMakeFiles/PreOrderTraverse.dir/Tree/FindPreOfPostThread.cpp.obj
-PreOrderTraverse.exe: CMakeFiles/PreOrderTraverse.dir/Tree/FindPostOfPostThread.cpp.obj
 PreOrderTraverse.exe: CMakeFiles/PreOrderTraverse.dir/build.make
 PreOrderTraverse.exe: CMakeFiles/PreOrderTraverse.dir/linklibs.rsp
 PreOrderTraverse.exe: CMakeFiles/PreOrderTraverse.dir/objects1.rsp
 PreOrderTraverse.exe: CMakeFiles/PreOrderTraverse.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable PreOrderTraverse.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PreOrderTraverse.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PreOrderTraverse.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,3 +1,0 @@
-"D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\FingPreOfInOrderThread.dir/objects.a
-D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\FingPreOfInOrderThread.dir/objects.a @CMakeFiles\FingPreOfInOrderThread.dir\objects1.rsp
-D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\FingPreOfInOrderThread.dir/objects.a -Wl,--no-whole-archive -o FingPreOfInOrderThread.exe -Wl,--out-implib,libFingPreOfInOrderThread.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FingPreOfInOrderThread.dir\linklibs.rsp

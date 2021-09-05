@@ -31,15 +31,16 @@ void CreatePreThread(ThreadTree tree) {
 void PreThread(ThreadTree tree) {
     if (tree != nullptr) {
         visit(tree);
+        if(tree->ltag==0)/*这里if判断一定要判断lchild是不是线索，如果不加判断ltag，
+        那么假设访问的是原来没有左孩子的结点，如果已经访问，把lchild设置为了前驱结点，那么Thread函数里访问lchild
+        又会回到前驱结点，会出现无限循环的情况，这是前序线索化特有的问题！*/
         PreThread(tree->lchild);
         PreThread(tree->rchild);
     }
 }
 
 void visit(ThreadTree tree) {
-    if (tree->lchild == nullptr && tree->ltag == 0) {/*这里if判断一定要判断lchild是不是线索，如果不加判断ltag，
-        那么假设访问的是原来没有左孩子的结点，如果已经访问，把lchild设置为了前驱结点，那么Thread函数里访问lchild
-        又会回到前驱结点，会出现无限循环的情况，这是前序线索化特有的问题！*/
+    if (tree->lchild == nullptr) {
         tree->lchild = pre;
         tree->ltag = 1;
     }

@@ -1,10 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/StaticSequenceString.dir/String/StaticSequenceString.cpp.obj"
-  "CMakeFiles/StaticSequenceString.dir/Tree/FindPostOfPostThread.cpp.obj"
-  "CMakeFiles/StaticSequenceString.dir/Tree/FindPostOfPreThread.cpp.obj"
-  "CMakeFiles/StaticSequenceString.dir/Tree/FindPreOfPostThread.cpp.obj"
-  "CMakeFiles/StaticSequenceString.dir/Tree/FindPreOfPreThread.cpp.obj"
-  "CMakeFiles/StaticSequenceString.dir/Tree/FingPreOfInThread.cpp.obj"
   "StaticSequenceString.exe"
   "StaticSequenceString.exe.manifest"
   "StaticSequenceString.pdb"

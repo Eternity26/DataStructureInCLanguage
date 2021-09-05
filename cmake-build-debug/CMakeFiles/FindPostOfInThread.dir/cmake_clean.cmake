@@ -1,10 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfInThread.cpp.obj"
-  "CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfPostThread.cpp.obj"
-  "CMakeFiles/FindPostOfInThread.dir/Tree/FindPostOfPreThread.cpp.obj"
-  "CMakeFiles/FindPostOfInThread.dir/Tree/FindPreOfPostThread.cpp.obj"
-  "CMakeFiles/FindPostOfInThread.dir/Tree/FindPreOfPreThread.cpp.obj"
-  "CMakeFiles/FindPostOfInThread.dir/Tree/FingPreOfInThread.cpp.obj"
   "FindPostOfInThread.exe"
   "FindPostOfInThread.exe.manifest"
   "FindPostOfInThread.pdb"

@@ -78,94 +78,19 @@ CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/LinearList/CycleLinkList/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.s"
 	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\LinearList\CycleLinkList\CycleLinkListWithHeadnodeAndTailpointer.cpp -o CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\LinearList\CycleLinkList\CycleLinkListWithHeadnodeAndTailpointer.cpp.s
 
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.obj: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/flags.make
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.obj: ../Tree/FingPreOfInThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FingPreOfInThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp > CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FingPreOfInThread.cpp.i
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp -o CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FingPreOfInThread.cpp.s
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.obj: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/flags.make
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.obj: ../Tree/FindPostOfPreThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPostOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp > CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPostOfPreThread.cpp.i
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp -o CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPostOfPreThread.cpp.s
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.obj: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/flags.make
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.obj: ../Tree/FindPreOfPreThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPreOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp > CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPreOfPreThread.cpp.i
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp -o CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPreOfPreThread.cpp.s
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.obj: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/flags.make
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.obj: ../Tree/FindPreOfPostThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPreOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp > CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPreOfPostThread.cpp.i
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp -o CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPreOfPostThread.cpp.s
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.obj: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/flags.make
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.obj: ../Tree/FindPostOfPostThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPostOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp > CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPostOfPostThread.cpp.i
-
-CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp -o CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\Tree\FindPostOfPostThread.cpp.s
-
 # Object files for target CycleLinkListWithHeadnodeAndTailpointer
 CycleLinkListWithHeadnodeAndTailpointer_OBJECTS = \
-"CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.obj" \
-"CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.obj" \
-"CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.obj" \
-"CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.obj" \
-"CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.obj" \
-"CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.obj"
+"CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.obj"
 
 # External object files for target CycleLinkListWithHeadnodeAndTailpointer
 CycleLinkListWithHeadnodeAndTailpointer_EXTERNAL_OBJECTS =
 
 CycleLinkListWithHeadnodeAndTailpointer.exe: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/LinearList/CycleLinkList/CycleLinkListWithHeadnodeAndTailpointer.cpp.obj
-CycleLinkListWithHeadnodeAndTailpointer.exe: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FingPreOfInThread.cpp.obj
-CycleLinkListWithHeadnodeAndTailpointer.exe: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPreThread.cpp.obj
-CycleLinkListWithHeadnodeAndTailpointer.exe: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPreThread.cpp.obj
-CycleLinkListWithHeadnodeAndTailpointer.exe: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPreOfPostThread.cpp.obj
-CycleLinkListWithHeadnodeAndTailpointer.exe: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/Tree/FindPostOfPostThread.cpp.obj
 CycleLinkListWithHeadnodeAndTailpointer.exe: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/build.make
 CycleLinkListWithHeadnodeAndTailpointer.exe: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/linklibs.rsp
 CycleLinkListWithHeadnodeAndTailpointer.exe: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/objects1.rsp
 CycleLinkListWithHeadnodeAndTailpointer.exe: CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CycleLinkListWithHeadnodeAndTailpointer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CycleLinkListWithHeadnodeAndTailpointer.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

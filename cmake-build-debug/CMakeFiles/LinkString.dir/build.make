@@ -78,94 +78,19 @@ CMakeFiles/LinkString.dir/String/LinkString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkString.dir/String/LinkString.cpp.s"
 	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\String\LinkString.cpp -o CMakeFiles\LinkString.dir\String\LinkString.cpp.s
 
-CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.obj: CMakeFiles/LinkString.dir/flags.make
-CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.obj: ../Tree/FingPreOfInThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkString.dir\Tree\FingPreOfInThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp
-
-CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp > CMakeFiles\LinkString.dir\Tree\FingPreOfInThread.cpp.i
-
-CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp -o CMakeFiles\LinkString.dir\Tree\FingPreOfInThread.cpp.s
-
-CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.obj: CMakeFiles/LinkString.dir/flags.make
-CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.obj: ../Tree/FindPostOfPreThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkString.dir\Tree\FindPostOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp
-
-CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp > CMakeFiles\LinkString.dir\Tree\FindPostOfPreThread.cpp.i
-
-CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp -o CMakeFiles\LinkString.dir\Tree\FindPostOfPreThread.cpp.s
-
-CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.obj: CMakeFiles/LinkString.dir/flags.make
-CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.obj: ../Tree/FindPreOfPreThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkString.dir\Tree\FindPreOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp
-
-CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp > CMakeFiles\LinkString.dir\Tree\FindPreOfPreThread.cpp.i
-
-CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp -o CMakeFiles\LinkString.dir\Tree\FindPreOfPreThread.cpp.s
-
-CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.obj: CMakeFiles/LinkString.dir/flags.make
-CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.obj: ../Tree/FindPreOfPostThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkString.dir\Tree\FindPreOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp
-
-CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp > CMakeFiles\LinkString.dir\Tree\FindPreOfPostThread.cpp.i
-
-CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp -o CMakeFiles\LinkString.dir\Tree\FindPreOfPostThread.cpp.s
-
-CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.obj: CMakeFiles/LinkString.dir/flags.make
-CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.obj: ../Tree/FindPostOfPostThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkString.dir\Tree\FindPostOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp
-
-CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp > CMakeFiles\LinkString.dir\Tree\FindPostOfPostThread.cpp.i
-
-CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp -o CMakeFiles\LinkString.dir\Tree\FindPostOfPostThread.cpp.s
-
 # Object files for target LinkString
 LinkString_OBJECTS = \
-"CMakeFiles/LinkString.dir/String/LinkString.cpp.obj" \
-"CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.obj" \
-"CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.obj" \
-"CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.obj" \
-"CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.obj" \
-"CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.obj"
+"CMakeFiles/LinkString.dir/String/LinkString.cpp.obj"
 
 # External object files for target LinkString
 LinkString_EXTERNAL_OBJECTS =
 
 LinkString.exe: CMakeFiles/LinkString.dir/String/LinkString.cpp.obj
-LinkString.exe: CMakeFiles/LinkString.dir/Tree/FingPreOfInThread.cpp.obj
-LinkString.exe: CMakeFiles/LinkString.dir/Tree/FindPostOfPreThread.cpp.obj
-LinkString.exe: CMakeFiles/LinkString.dir/Tree/FindPreOfPreThread.cpp.obj
-LinkString.exe: CMakeFiles/LinkString.dir/Tree/FindPreOfPostThread.cpp.obj
-LinkString.exe: CMakeFiles/LinkString.dir/Tree/FindPostOfPostThread.cpp.obj
 LinkString.exe: CMakeFiles/LinkString.dir/build.make
 LinkString.exe: CMakeFiles/LinkString.dir/linklibs.rsp
 LinkString.exe: CMakeFiles/LinkString.dir/objects1.rsp
 LinkString.exe: CMakeFiles/LinkString.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable LinkString.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LinkString.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LinkString.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

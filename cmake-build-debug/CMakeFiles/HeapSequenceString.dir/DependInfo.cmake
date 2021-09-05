@@ -9,11 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/repo/DataStructureInCLanguage/String/HeapSequenceString.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/HeapSequenceString.dir/String/HeapSequenceString.cpp.obj"
-  "D:/repo/DataStructureInCLanguage/Tree/FindPostOfPostThread.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/HeapSequenceString.dir/Tree/FindPostOfPostThread.cpp.obj"
-  "D:/repo/DataStructureInCLanguage/Tree/FindPostOfPreThread.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/HeapSequenceString.dir/Tree/FindPostOfPreThread.cpp.obj"
-  "D:/repo/DataStructureInCLanguage/Tree/FindPreOfPostThread.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/HeapSequenceString.dir/Tree/FindPreOfPostThread.cpp.obj"
-  "D:/repo/DataStructureInCLanguage/Tree/FindPreOfPreThread.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/HeapSequenceString.dir/Tree/FindPreOfPreThread.cpp.obj"
-  "D:/repo/DataStructureInCLanguage/Tree/FingPreOfInThread.cpp" "D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/HeapSequenceString.dir/Tree/FingPreOfInThread.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

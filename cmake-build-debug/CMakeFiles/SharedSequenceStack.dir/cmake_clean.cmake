@@ -1,10 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SharedSequenceStack.dir/Stack/SequenceStack/SharedSequenceStack.cpp.obj"
-  "CMakeFiles/SharedSequenceStack.dir/Tree/FindPostOfPostThread.cpp.obj"
-  "CMakeFiles/SharedSequenceStack.dir/Tree/FindPostOfPreThread.cpp.obj"
-  "CMakeFiles/SharedSequenceStack.dir/Tree/FindPreOfPostThread.cpp.obj"
-  "CMakeFiles/SharedSequenceStack.dir/Tree/FindPreOfPreThread.cpp.obj"
-  "CMakeFiles/SharedSequenceStack.dir/Tree/FingPreOfInThread.cpp.obj"
   "SharedSequenceStack.exe"
   "SharedSequenceStack.exe.manifest"
   "SharedSequenceStack.pdb"

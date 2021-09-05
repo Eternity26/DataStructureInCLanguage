@@ -1,9 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LevelTraverse.dir/Tree/FindPostOfPostThread.cpp.obj"
-  "CMakeFiles/LevelTraverse.dir/Tree/FindPostOfPreThread.cpp.obj"
-  "CMakeFiles/LevelTraverse.dir/Tree/FindPreOfPostThread.cpp.obj"
-  "CMakeFiles/LevelTraverse.dir/Tree/FindPreOfPreThread.cpp.obj"
-  "CMakeFiles/LevelTraverse.dir/Tree/FingPreOfInThread.cpp.obj"
   "CMakeFiles/LevelTraverse.dir/Tree/LevelTraverse.cpp.obj"
   "LevelTraverse.exe"
   "LevelTraverse.exe.manifest"

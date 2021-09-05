@@ -3,11 +3,6 @@ file(REMOVE_RECURSE
   "CMakeCXXCompilerId.exe.manifest"
   "CMakeCXXCompilerId.pdb"
   "CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj"
-  "CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPostOfPostThread.cpp.obj"
-  "CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPostOfPreThread.cpp.obj"
-  "CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPreOfPostThread.cpp.obj"
-  "CMakeFiles/CMakeCXXCompilerId.dir/Tree/FindPreOfPreThread.cpp.obj"
-  "CMakeFiles/CMakeCXXCompilerId.dir/Tree/FingPreOfInThread.cpp.obj"
   "libCMakeCXXCompilerId.dll.a"
 )
 

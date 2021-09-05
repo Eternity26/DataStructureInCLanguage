@@ -78,94 +78,19 @@ CMakeFiles/SequenceListInStaticAllocation.dir/LinearList/SequenceList/SequenceLi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SequenceListInStaticAllocation.dir/LinearList/SequenceList/SequenceListInStaticAllocation.cpp.s"
 	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\LinearList\SequenceList\SequenceListInStaticAllocation.cpp -o CMakeFiles\SequenceListInStaticAllocation.dir\LinearList\SequenceList\SequenceListInStaticAllocation.cpp.s
 
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.obj: CMakeFiles/SequenceListInStaticAllocation.dir/flags.make
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.obj: ../Tree/FingPreOfInThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FingPreOfInThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp > CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FingPreOfInThread.cpp.i
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FingPreOfInThread.cpp -o CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FingPreOfInThread.cpp.s
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.obj: CMakeFiles/SequenceListInStaticAllocation.dir/flags.make
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.obj: ../Tree/FindPostOfPreThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPostOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp > CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPostOfPreThread.cpp.i
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPreThread.cpp -o CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPostOfPreThread.cpp.s
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.obj: CMakeFiles/SequenceListInStaticAllocation.dir/flags.make
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.obj: ../Tree/FindPreOfPreThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPreOfPreThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp > CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPreOfPreThread.cpp.i
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPreThread.cpp -o CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPreOfPreThread.cpp.s
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.obj: CMakeFiles/SequenceListInStaticAllocation.dir/flags.make
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.obj: ../Tree/FindPreOfPostThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPreOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp > CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPreOfPostThread.cpp.i
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPreOfPostThread.cpp -o CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPreOfPostThread.cpp.s
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.obj: CMakeFiles/SequenceListInStaticAllocation.dir/flags.make
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.obj: ../Tree/FindPostOfPostThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.obj"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPostOfPostThread.cpp.obj -c D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.i"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp > CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPostOfPostThread.cpp.i
-
-CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.s"
-	D:\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\repo\DataStructureInCLanguage\Tree\FindPostOfPostThread.cpp -o CMakeFiles\SequenceListInStaticAllocation.dir\Tree\FindPostOfPostThread.cpp.s
-
 # Object files for target SequenceListInStaticAllocation
 SequenceListInStaticAllocation_OBJECTS = \
-"CMakeFiles/SequenceListInStaticAllocation.dir/LinearList/SequenceList/SequenceListInStaticAllocation.cpp.obj" \
-"CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.obj" \
-"CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.obj" \
-"CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.obj" \
-"CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.obj" \
-"CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.obj"
+"CMakeFiles/SequenceListInStaticAllocation.dir/LinearList/SequenceList/SequenceListInStaticAllocation.cpp.obj"
 
 # External object files for target SequenceListInStaticAllocation
 SequenceListInStaticAllocation_EXTERNAL_OBJECTS =
 
 SequenceListInStaticAllocation.exe: CMakeFiles/SequenceListInStaticAllocation.dir/LinearList/SequenceList/SequenceListInStaticAllocation.cpp.obj
-SequenceListInStaticAllocation.exe: CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FingPreOfInThread.cpp.obj
-SequenceListInStaticAllocation.exe: CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPreThread.cpp.obj
-SequenceListInStaticAllocation.exe: CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPreThread.cpp.obj
-SequenceListInStaticAllocation.exe: CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPreOfPostThread.cpp.obj
-SequenceListInStaticAllocation.exe: CMakeFiles/SequenceListInStaticAllocation.dir/Tree/FindPostOfPostThread.cpp.obj
 SequenceListInStaticAllocation.exe: CMakeFiles/SequenceListInStaticAllocation.dir/build.make
 SequenceListInStaticAllocation.exe: CMakeFiles/SequenceListInStaticAllocation.dir/linklibs.rsp
 SequenceListInStaticAllocation.exe: CMakeFiles/SequenceListInStaticAllocation.dir/objects1.rsp
 SequenceListInStaticAllocation.exe: CMakeFiles/SequenceListInStaticAllocation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable SequenceListInStaticAllocation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SequenceListInStaticAllocation.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SequenceListInStaticAllocation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
