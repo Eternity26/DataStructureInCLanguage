@@ -20,6 +20,7 @@
     -- src/HeapSequenceString.cpp will be compiled to bin/HeapSequenceString
     -- src/LinkString.cpp will be compiled to bin/LinkString
     -- src/StaticSequenceString.cpp will be compiled to bin/StaticSequenceString
+    -- src/BinarySearchTree.cpp will be compiled to bin/BinarySearchTree
     -- src/CreateInThread.cpp will be compiled to bin/CreateInThread
     -- src/CreatePostThread.cpp will be compiled to bin/CreatePostThread
     -- src/CreatePreThread.cpp will be compiled to bin/CreatePreThread

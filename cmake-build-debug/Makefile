@@ -454,6 +454,32 @@ StaticSequenceString/fast:
 .PHONY : StaticSequenceString/fast
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named BinarySearchTree
+
+# Build rule for target.
+BinarySearchTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BinarySearchTree
+.PHONY : BinarySearchTree
+
+# fast build rule for target.
+BinarySearchTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make CMakeFiles/BinarySearchTree.dir/build
+.PHONY : BinarySearchTree/fast
+
+#=============================================================================
 # Target rules for targets named CreatePostThread
 
 # Build rule for target.
@@ -569,19 +595,6 @@ CMakeCXXCompilerId: cmake_check_build_system
 CMakeCXXCompilerId/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/build
 .PHONY : CMakeCXXCompilerId/fast
-
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
 
 CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 .PHONY : CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.obj
@@ -1111,6 +1124,30 @@ String/StaticSequenceString.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/String/StaticSequenceString.cpp.s
 .PHONY : String/StaticSequenceString.cpp.s
 
+Tree/BinarySearchTree.obj: Tree/BinarySearchTree.cpp.obj
+.PHONY : Tree/BinarySearchTree.obj
+
+# target to build an object file
+Tree/BinarySearchTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make CMakeFiles/BinarySearchTree.dir/Tree/BinarySearchTree.cpp.obj
+.PHONY : Tree/BinarySearchTree.cpp.obj
+
+Tree/BinarySearchTree.i: Tree/BinarySearchTree.cpp.i
+.PHONY : Tree/BinarySearchTree.i
+
+# target to preprocess a source file
+Tree/BinarySearchTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make CMakeFiles/BinarySearchTree.dir/Tree/BinarySearchTree.cpp.i
+.PHONY : Tree/BinarySearchTree.cpp.i
+
+Tree/BinarySearchTree.s: Tree/BinarySearchTree.cpp.s
+.PHONY : Tree/BinarySearchTree.s
+
+# target to generate assembly for a file
+Tree/BinarySearchTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make CMakeFiles/BinarySearchTree.dir/Tree/BinarySearchTree.cpp.s
+.PHONY : Tree/BinarySearchTree.cpp.s
+
 Tree/CreateInThread.obj: Tree/CreateInThread.cpp.obj
 .PHONY : Tree/CreateInThread.obj
 
@@ -1455,6 +1492,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BinarySearchTree
 	@echo ... CMakeCXXCompilerId
 	@echo ... CreateInThread
 	@echo ... CreatePostThread
@@ -1557,6 +1595,9 @@ help:
 	@echo ... String/StaticSequenceString.obj
 	@echo ... String/StaticSequenceString.i
 	@echo ... String/StaticSequenceString.s
+	@echo ... Tree/BinarySearchTree.obj
+	@echo ... Tree/BinarySearchTree.i
+	@echo ... Tree/BinarySearchTree.s
 	@echo ... Tree/CreateInThread.obj
 	@echo ... Tree/CreateInThread.i
 	@echo ... Tree/CreateInThread.s

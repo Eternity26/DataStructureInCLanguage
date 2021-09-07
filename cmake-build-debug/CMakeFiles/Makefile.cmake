@@ -77,6 +77,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LinkString.dir/DependInfo.cmake"
   "CMakeFiles/LevelTraverse.dir/DependInfo.cmake"
   "CMakeFiles/StaticSequenceString.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/BinarySearchTree.dir/DependInfo.cmake"
   "CMakeFiles/CreatePostThread.dir/DependInfo.cmake"
   "CMakeFiles/CreatePreThread.dir/DependInfo.cmake"
   "CMakeFiles/FindPostOfInThread.dir/DependInfo.cmake"
@@ -86,5 +88,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/PreOrderTraverse.dir/DependInfo.cmake"
   "CMakeFiles/SequenceBinaryTree.dir/DependInfo.cmake"
   "CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake"
-  "CMakeFiles/main.dir/DependInfo.cmake"
   )

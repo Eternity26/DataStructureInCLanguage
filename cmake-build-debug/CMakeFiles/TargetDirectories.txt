@@ -24,6 +24,9 @@ D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SharedSequenceStac
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkString.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LevelTraverse.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/StaticSequenceString.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/main.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/BinarySearchTree.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CreatePostThread.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CreatePreThread.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/FindPostOfInThread.dir
@@ -33,6 +36,4 @@ D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkBinaryTree.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/PreOrderTraverse.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceBinaryTree.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
-D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/main.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/rebuild_cache.dir
