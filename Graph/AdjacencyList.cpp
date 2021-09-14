@@ -12,10 +12,18 @@ typedef struct ArcNode {
 
 typedef struct {
     Elemtype data;
-    ArcNode *FirstEdge;
+    ArcNode *FirstArc;
 } VertexNode;
 
 typedef struct {
     VertexNode vertexes[MAXSIZE];
     int vertexnum, edgenum;
-} AdjacencyMatrix;
+} AdjacencyList;
+
+bool Adjacent(VertexNode *x, ArcNode *y) {
+    for (ArcNode *i = x->FirstArc; i != nullptr; i = i->next) {
+        if (i == y)
+            return true;
+    }
+    return false;
+}

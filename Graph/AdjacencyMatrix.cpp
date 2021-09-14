@@ -40,3 +40,37 @@ void DeleteVertex(AdjacencyMatrix &graph, int x) {
         graph.path[x][i] = 0;
     }
 }
+
+void AddEdge(AdjacencyMatrix &graph, int x, int y) {
+    if (graph.path[x][y] == 0)
+        graph.path[x][y] = 1;
+}
+
+void DeleteEdge(AdjacencyMatrix &graph, int x, int y) {
+    if (graph.path[x][y] == 1)
+        graph.path[x][y] = 0;
+}
+
+int FirstNeighbour(AdjacencyMatrix graph, int x) {
+    for (int i = 0; i < graph.vertexnum; i++) {
+        if (graph.path[x][i])
+            return i;
+    }
+    return -1;
+}
+
+int NextNeighBour(AdjacencyMatrix graph, int x, int y) {
+    for (int i = y + 1; i < graph.vertexnum; i++) {
+        if (graph.path[x][i])
+            return i;
+    }
+    return -1;
+}
+
+int Get_Edge_Value(AdjacencyMatrix graph, int x, int y) {
+    return graph.path[x][y];
+}
+
+void Set_Edge_Value(AdjacencyMatrix &graph, int x, int y, int v) {
+    graph.path[x][y] = v;
+}
