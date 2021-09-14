@@ -1,4 +1,6 @@
 "D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\repo\DataStructureInCLanguage
+    -- src/AdjacencyList.cpp will be compiled to bin/AdjacencyList
+    -- src/AdjacencyMatrix.cpp will be compiled to bin/AdjacencyMatrix
     -- src/CycleDoubleLinkListWithHeadnode.cpp will be compiled to bin/CycleDoubleLinkListWithHeadnode
     -- src/CycleLinkListWithHeadnodeAndTailpointer.cpp will be compiled to bin/CycleLinkListWithHeadnodeAndTailpointer
     -- src/DoubleLinkListWithHeadnode.cpp will be compiled to bin/DoubleLinkListWithHeadnode

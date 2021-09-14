@@ -60,4 +60,13 @@
     - 设图G的邻接矩阵为A，则A<sup>n</sup>[i][j] (i,j为矩阵下标)为从第i个结点开始到第j个结点结束且长度为n的路径条数
       - 图解：![PropertyOfAdjacencyMatrix](./PropertyOfAdjacencyMatrix.png)
         - 解释：e.g. 对于a<sub>1,2</sub>a<sub>2,4</sub>，a<sub>1,2</sub>表示从A到B的长度为1的路径条数，a<sub>2,4</sub>表示从B到D的长度为1的路径条数，两个相乘就是从A到D的长度为2的路径条数
-        - 
+  - 邻接表法：
+    - 由顶点数组构成，每个顶点包含数据域和指向依附于该顶点的第一个边结点的指针，每个边结点又包括边终点的数组下标和指向依附于该边起点的下一条边
+    - 对于有向图，求某个顶点入度或者度时需要遍历每个边才能找到所有指向该顶点的边，时间复杂度为O(|E|)
+  - 十字链表法：
+    - 图解：![OrthogonalList](./OrthogonalList.jpg)
+  - 邻接多重表法：
+    - 图解：![AdjacencyMultilist](./AdjacencyMultilist.jpg)
+  - 总结：![ConclusionOfGraphImplementation](./ConclusionOfGraphImplementation.jpg)
+- 图的操作：
+  - 图解：![OperationOnGraph](OperationOnGraph.jpg)
