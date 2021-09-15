@@ -11,6 +11,7 @@
 
 typedef struct {
     Elemtype Vertexes[MAXSIZE];
+    bool isEmpty[MAXSIZE];
     int path[MAXSIZE][MAXSIZE];
     int vertexnum, edgenum;
 } AdjacencyMatrix;
@@ -39,6 +40,7 @@ void DeleteVertex(AdjacencyMatrix &graph, int x) {
         graph.path[i][x] = 0;
         graph.path[x][i] = 0;
     }
+    graph.isEmpty[x] = true;
 }
 
 void AddEdge(AdjacencyMatrix &graph, int x, int y) {
