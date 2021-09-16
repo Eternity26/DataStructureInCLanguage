@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LinkListWithoutHeadnode
+# Target rules for targets named BreathFirstSearchImplementedInAdjacencyMatrix
 
 # Build rule for target.
-LinkListWithoutHeadnode: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkListWithoutHeadnode
-.PHONY : LinkListWithoutHeadnode
+BreathFirstSearchImplementedInAdjacencyMatrix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BreathFirstSearchImplementedInAdjacencyMatrix
+.PHONY : BreathFirstSearchImplementedInAdjacencyMatrix
 
 # fast build rule for target.
-LinkListWithoutHeadnode/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/build
-.PHONY : LinkListWithoutHeadnode/fast
+BreathFirstSearchImplementedInAdjacencyMatrix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreathFirstSearchImplementedInAdjacencyMatrix.dir\build.make CMakeFiles/BreathFirstSearchImplementedInAdjacencyMatrix.dir/build
+.PHONY : BreathFirstSearchImplementedInAdjacencyMatrix/fast
 
 #=============================================================================
 # Target rules for targets named LinkStackWithHeadnode
@@ -181,30 +181,17 @@ AdjacencyMatrix/fast:
 .PHONY : AdjacencyMatrix/fast
 
 #=============================================================================
-# Target rules for targets named CreateInThread
+# Target rules for targets named BreathFirstSearchImplementedInAdjacencyList
 
 # Build rule for target.
-CreateInThread: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CreateInThread
-.PHONY : CreateInThread
+BreathFirstSearchImplementedInAdjacencyList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BreathFirstSearchImplementedInAdjacencyList
+.PHONY : BreathFirstSearchImplementedInAdjacencyList
 
 # fast build rule for target.
-CreateInThread/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/build
-.PHONY : CreateInThread/fast
-
-#=============================================================================
-# Target rules for targets named SequenceListInDynamicAllocation
-
-# Build rule for target.
-SequenceListInDynamicAllocation: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SequenceListInDynamicAllocation
-.PHONY : SequenceListInDynamicAllocation
-
-# fast build rule for target.
-SequenceListInDynamicAllocation/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/build
-.PHONY : SequenceListInDynamicAllocation/fast
+BreathFirstSearchImplementedInAdjacencyList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreathFirstSearchImplementedInAdjacencyList.dir\build.make CMakeFiles/BreathFirstSearchImplementedInAdjacencyList.dir/build
+.PHONY : BreathFirstSearchImplementedInAdjacencyList/fast
 
 #=============================================================================
 # Target rules for targets named FindPostOfPreThread
@@ -296,6 +283,45 @@ DoubleLinkListWithHeadnode: cmake_check_build_system
 DoubleLinkListWithHeadnode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/build
 .PHONY : DoubleLinkListWithHeadnode/fast
+
+#=============================================================================
+# Target rules for targets named LinkListWithoutHeadnode
+
+# Build rule for target.
+LinkListWithoutHeadnode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LinkListWithoutHeadnode
+.PHONY : LinkListWithoutHeadnode
+
+# fast build rule for target.
+LinkListWithoutHeadnode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/build
+.PHONY : LinkListWithoutHeadnode/fast
+
+#=============================================================================
+# Target rules for targets named CreateInThread
+
+# Build rule for target.
+CreateInThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CreateInThread
+.PHONY : CreateInThread
+
+# fast build rule for target.
+CreateInThread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/build
+.PHONY : CreateInThread/fast
+
+#=============================================================================
+# Target rules for targets named SequenceListInDynamicAllocation
+
+# Build rule for target.
+SequenceListInDynamicAllocation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SequenceListInDynamicAllocation
+.PHONY : SequenceListInDynamicAllocation
+
+# fast build rule for target.
+SequenceListInDynamicAllocation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/build
+.PHONY : SequenceListInDynamicAllocation/fast
 
 #=============================================================================
 # Target rules for targets named SequenceListInStaticAllocation
@@ -693,6 +719,54 @@ Graph/AdjacencyMatrix.s: Graph/AdjacencyMatrix.cpp.s
 Graph/AdjacencyMatrix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AdjacencyMatrix.dir\build.make CMakeFiles/AdjacencyMatrix.dir/Graph/AdjacencyMatrix.cpp.s
 .PHONY : Graph/AdjacencyMatrix.cpp.s
+
+Graph/BreathFirstSearchImplementedInAdjacencyList.obj: Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.obj
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyList.obj
+
+# target to build an object file
+Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreathFirstSearchImplementedInAdjacencyList.dir\build.make CMakeFiles/BreathFirstSearchImplementedInAdjacencyList.dir/Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.obj
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.obj
+
+Graph/BreathFirstSearchImplementedInAdjacencyList.i: Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.i
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyList.i
+
+# target to preprocess a source file
+Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreathFirstSearchImplementedInAdjacencyList.dir\build.make CMakeFiles/BreathFirstSearchImplementedInAdjacencyList.dir/Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.i
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.i
+
+Graph/BreathFirstSearchImplementedInAdjacencyList.s: Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.s
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyList.s
+
+# target to generate assembly for a file
+Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreathFirstSearchImplementedInAdjacencyList.dir\build.make CMakeFiles/BreathFirstSearchImplementedInAdjacencyList.dir/Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.s
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyList.cpp.s
+
+Graph/BreathFirstSearchImplementedInAdjacencyMatrix.obj: Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.obj
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyMatrix.obj
+
+# target to build an object file
+Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreathFirstSearchImplementedInAdjacencyMatrix.dir\build.make CMakeFiles/BreathFirstSearchImplementedInAdjacencyMatrix.dir/Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.obj
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.obj
+
+Graph/BreathFirstSearchImplementedInAdjacencyMatrix.i: Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.i
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyMatrix.i
+
+# target to preprocess a source file
+Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreathFirstSearchImplementedInAdjacencyMatrix.dir\build.make CMakeFiles/BreathFirstSearchImplementedInAdjacencyMatrix.dir/Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.i
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.i
+
+Graph/BreathFirstSearchImplementedInAdjacencyMatrix.s: Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.s
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyMatrix.s
+
+# target to generate assembly for a file
+Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreathFirstSearchImplementedInAdjacencyMatrix.dir\build.make CMakeFiles/BreathFirstSearchImplementedInAdjacencyMatrix.dir/Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.s
+.PHONY : Graph/BreathFirstSearchImplementedInAdjacencyMatrix.cpp.s
 
 LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.obj: LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.cpp.obj
 .PHONY : LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.obj
@@ -1569,6 +1643,8 @@ help:
 	@echo ... AdjacencyList
 	@echo ... AdjacencyMatrix
 	@echo ... BinarySearchTree
+	@echo ... BreathFirstSearchImplementedInAdjacencyList
+	@echo ... BreathFirstSearchImplementedInAdjacencyMatrix
 	@echo ... CMakeCXXCompilerId
 	@echo ... CreateInThread
 	@echo ... CreatePostThread
@@ -1614,6 +1690,12 @@ help:
 	@echo ... Graph/AdjacencyMatrix.obj
 	@echo ... Graph/AdjacencyMatrix.i
 	@echo ... Graph/AdjacencyMatrix.s
+	@echo ... Graph/BreathFirstSearchImplementedInAdjacencyList.obj
+	@echo ... Graph/BreathFirstSearchImplementedInAdjacencyList.i
+	@echo ... Graph/BreathFirstSearchImplementedInAdjacencyList.s
+	@echo ... Graph/BreathFirstSearchImplementedInAdjacencyMatrix.obj
+	@echo ... Graph/BreathFirstSearchImplementedInAdjacencyMatrix.i
+	@echo ... Graph/BreathFirstSearchImplementedInAdjacencyMatrix.s
 	@echo ... LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.obj
 	@echo ... LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.i
 	@echo ... LinearList/CycleLinkList/CycleDoubleLinkListWithHeadnode.s

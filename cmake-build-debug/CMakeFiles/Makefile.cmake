@@ -51,13 +51,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/LinkListWithoutHeadnode.dir/DependInfo.cmake"
+  "CMakeFiles/BreathFirstSearchImplementedInAdjacencyMatrix.dir/DependInfo.cmake"
   "CMakeFiles/LinkStackWithHeadnode.dir/DependInfo.cmake"
   "CMakeFiles/AdjacencyList.dir/DependInfo.cmake"
   "CMakeFiles/MatchParenthesesBracketsAndBraces.dir/DependInfo.cmake"
   "CMakeFiles/AdjacencyMatrix.dir/DependInfo.cmake"
-  "CMakeFiles/CreateInThread.dir/DependInfo.cmake"
-  "CMakeFiles/SequenceListInDynamicAllocation.dir/DependInfo.cmake"
+  "CMakeFiles/BreathFirstSearchImplementedInAdjacencyList.dir/DependInfo.cmake"
   "CMakeFiles/FindPostOfPreThread.dir/DependInfo.cmake"
   "CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/DependInfo.cmake"
   "CMakeFiles/HeapSequenceString.dir/DependInfo.cmake"
@@ -65,6 +64,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/FindPreOfPreThread.dir/DependInfo.cmake"
   "CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/DependInfo.cmake"
   "CMakeFiles/DoubleLinkListWithHeadnode.dir/DependInfo.cmake"
+  "CMakeFiles/LinkListWithoutHeadnode.dir/DependInfo.cmake"
+  "CMakeFiles/CreateInThread.dir/DependInfo.cmake"
+  "CMakeFiles/SequenceListInDynamicAllocation.dir/DependInfo.cmake"
   "CMakeFiles/SequenceListInStaticAllocation.dir/DependInfo.cmake"
   "CMakeFiles/LinkQueueWithHeadnode.dir/DependInfo.cmake"
   "CMakeFiles/LinkQueueWithoutHeadnode.dir/DependInfo.cmake"
