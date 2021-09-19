@@ -116,7 +116,7 @@
          - 选取一个顶点作为起点，记为i，定义一个数组isShortest保存顶点是否已是最短路径，dist数组记录顶点到i的距离，path记录顶点在最短路径的直接前驱
          - 开始时，假设图对应的权二维数组为arcs，遍历所有顶点，记被遍历的顶点为j，如果arcs[i][j]!=INFINITY，让dist[j]=arcs[i][j]，path[j]=i，否则如果i到j没有路径，让dist[j]=INFINITY，path=-1；对于i自身，让dist[i]=0，path[i]=-1
          - 重复：
-           - 遍历所有顶点，将满足isShortest数组值为false且dist值最小的顶点挑出来记为m，让isShortest[m]=true，然后遍历m的所有邻接点k，如果isShortest[k]==false而且dist[m]+arcs[m][k]<dist[k]，那么让dist[k]=dist[m]+arcs[m][k]
+           - 遍历所有顶点，将满足isShortest数组值为false且dist值最小的顶点挑出来记为m，让isShortest[m]=true，然后遍历m的所有邻接点k，如果isShortest[k]==false而且dist[m]+arcs[m][k]<dist[k]，那么让dist[k]=dist[m]+arcs[m][k]，path[k]=m
          - 直到isShortest数组的所有值均为true
        - 时间复杂度：O(|V|<sup>2</sup>)
        - 缺点：不能处理权值中含有负数的图
