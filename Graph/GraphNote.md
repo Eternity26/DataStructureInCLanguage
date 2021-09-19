@@ -101,6 +101,23 @@
     2. Krustal算法：每次将权值最小的边连通，如果连过则不连，直到形成生成树
         - 时间复杂度O(|E|log<sub>2</sub>|E|)，适合稀疏图
 - 最短路径问题：
-  1. BFS算法：
-    - 
-    
+  - 从某一顶点开始到其他所有顶点：
+    1. BFS算法(适用于无权图)：
+       - 过程：
+         - 和BFS类似，选取一个顶点作为起点，另外用一个dist数组保存最短距离，path数组保存直接前驱，isVisited保存是否访问
+         - 开始时，如果起点是i，让dist数组的每个元素都是0，path[i]=-1，isVisited的每个元素都为false
+         - 将i加入辅助队列
+         - 重复：
+           - 辅助队列队头出队，假设是u，让isVisited[u]=true，遍历u的所有未被访问的邻接点并加入队尾，假设j被加入了队尾，那么让path[j]=u，dist[j]=dist[u]+1
+         - 直到队列为空
+       - 时间复杂度：同BFS
+    2. Dijkstra算法(适用于有权图/无权图)：
+       - 过程：
+         - 选取一个顶点作为起点，记为i，定义一个数组isShortest保存顶点是否已是最短路径，dist数组记录顶点到i的距离，path记录顶点在最短路径的直接前驱
+         - 开始时，假设图对应的权二维数组为arcs，遍历所有顶点，记被遍历的顶点为j，如果arcs[i][j]!=INFINITY，让dist[j]=arcs[i][j]，path[j]=i，否则如果i到j没有路径，让dist[j]=INFINITY，path=-1；对于i自身，让dist[i]=0，path[i]=-1
+         - 重复：
+           - 遍历所有顶点，将满足isShortest数组值为false且dist值最小的顶点挑出来记为m，让isShortest[m]=true，然后遍历m的所有邻接点k，如果isShortest[k]==false而且dist[m]+arcs[m][k]<dist[k]，那么让dist[k]=dist[m]+arcs[m][k]
+         - 直到isShortest数组的所有值均为true
+       - 时间复杂度：O(|V|<sup>2</sup>)
+       - 缺点：不能处理权值中含有负数的图
+  - 任意两两顶点之间：
