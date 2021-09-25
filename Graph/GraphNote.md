@@ -121,3 +121,17 @@
        - 时间复杂度：O(|V|<sup>2</sup>)
        - 缺点：不能处理权值中含有负数的图
   - 任意两两顶点之间：
+    - Floyd算法：
+      - 过程：
+        - 将邻接矩阵复制一份，叫A，用于记录两个顶点间的最小距离，再创建一个开始时所有值都为-1的path数组，用于记录两个顶点之间达到最小距离需要的中转点(值为-1代表不需要中转点即达到最小路径)
+        - 遍历所有顶点记为i，被遍历的顶点表示可以以这个顶点为中转点，每次遍历时，再遍历每条边，记为A[j][k]，如果A[j][i]+a[i][k]<A[j][k]，那么就让A[j][k]=A[j][i]+a[i][k]，path[j][k]=i
+        - 遍历完成后，A矩阵即为最短路径的矩阵，path即为两个顶点的中转点
+      - 使用path：假设找j和k之间最小路径，那么检查j和k之间是否有中转点，如果有i，再在j,i,k这个序列中查找j和i，i和k之间是否有中转点，如果有再继续在添加了中转点的序列中查找，直到序列中相邻两个顶点之间都没有中转点
+      - 时间复杂度：O(|V|<sup>3</sup>)
+  - 比较：![ComparisonOfShortestPathSolution](ComparisonOfShortestPathSolution.jpg)
+- 有向无环图描述表达式：
+  - 例子：![DirectedGraphWithoutCycle](DirectedGraphWithoutCycle.jpg)
+  - 方法：
+    1. ![SolutionToDirectedGraphWithoutCycle1](SolutionToDirectedGraphWithoutCycle1.jpg)
+    2. ![SolutionToDirectedGraphWithoutCycle2](SolutionToDirectedGraphWithoutCycle2.jpg)
+    3. ![SolutionToDirectedGraphWithoutCycle3](SolutionToDirectedGraphWithoutCycle3.jpg)
