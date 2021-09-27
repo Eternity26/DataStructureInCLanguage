@@ -135,3 +135,17 @@
     1. ![SolutionToDirectedGraphWithoutCycle1](SolutionToDirectedGraphWithoutCycle1.jpg)
     2. ![SolutionToDirectedGraphWithoutCycle2](SolutionToDirectedGraphWithoutCycle2.jpg)
     3. ![SolutionToDirectedGraphWithoutCycle3](SolutionToDirectedGraphWithoutCycle3.jpg)
+- 有向无环图的拓扑排序/逆拓扑排序：
+  - 拓扑排序方法：
+    - 思想：从图中每次删除入度为0的顶点和以它为起点的弧，然后将这顶点加入拓扑排序序列末尾直到图没有入度为0的顶点，如果图还有残余，那么图中有回路，就不满足有向无环图，排序失败
+    - 利用辅助栈(或队列)：
+      - 定义一个辅助栈和一个count变量
+      - 将所有入度为0的顶点加入栈，然后重复：将栈顶元素出栈，count加1，然后将它所有邻接点的入度减1，并将邻接点中入度为0的加入栈，直到栈空
+      - 当栈空时，如果count<顶点数，那么说明栈空时图中还有入度不为0的顶点，说明图里有回路，排序失败
+    - 利用DFS：同下，只是将print函数放在遍历前面
+    - 时间复杂度：邻接矩阵O(|V|<sup>2</sup>)，邻接表O(|V|+|E|)
+  - 逆拓扑排序：
+    - 思想：从图中每次删除出度为0的顶点和以它为终点的弧，然后将这顶点加入逆拓扑排序序列末尾直到图没有出度为0的顶点，如果图还有残余，那么图中有回路，就不满足有向无环图，排序失败
+    - 利用辅助栈(或队列)：同上，只是换成出度为0以及以顶点以终点的边
+    - 利用DFS：![InverseTopologicalSortingUsingDFS](InverseTopologicalSortingUsingDFS.jpg)
+      - 判断图中是否有回路：在每次递归时定义一个visitedInRecursion数组，记录每次递归时结点是否访问，并在递归中每次访问顶点时将visited和这个数组的相应值都设为true，如果访问到这个数组相应值为true的顶点，那么这个顶点在这次递归中被访问两次，图里有回路，排序失败
