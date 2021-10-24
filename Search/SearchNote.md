@@ -1,0 +1,50 @@
+# 查找
+- 基本概念：
+  - 查找表：进行查找的数据集合
+    - 静态查找表：只进行查找
+    - 动态查找表：进行查找和增删
+  - 关键字：数据项的唯一标识
+  - 评价查找效率标准：ASL，平均查找长度，查找成功和失败都要考虑
+- 顺序查找：
+  - 直接从头到尾或者从尾到头找
+  - 时间复杂度：O(n)
+  - 适用范围：顺序表/链表
+  - 优化，使不用判断越界：可以在0号位置存一个哨兵
+    - ``int search(SqList list,int key){``
+    - ``list.data[0] = key; ``
+    - ``int i;``
+    - ``for(i=list.length-1;list.data[i]!=key;i--);``
+    - ``return i;``
+    - ``}``
+  - 对有序表的优化：当前关键字大于(或小于)被查关键字时，查找失败
+    - 可使查找失败ASL更少
+    - 对应查找判定树：![SearchJudgementTree](SearchJudgementTree.jpg)
+  - 对关键字被查概率不同的表的优化：按被查概率降序排列
+    - 可使查找成功ASL更少
+- 折半查找：
+  - 过程：
+    - 开始时，low=0，high=list.length-1，mid=(low+high)/2
+    - 如果list.data[mid]<key，low=mid+1，mid=(low+high)/2
+    - 如果list.data[mid]>key，high=mid-1，mid=(low+high)/2
+    - 如果list.data[mid]==key，查找成功
+    - 如果low>high，查找失败
+  - 时间复杂度：O(log<sub>2</sub>n)
+  - 适用范围：有序的顺序表
+  - 折半查找判定树：
+    - 构造：以mid作为父结点，mid左边作为左子树，mid右边作为右子树
+      - 右子树结点数-左子树结点数=0或1
+      - ![](BinarySearchJudgementTree1.jpg)
+      - ![](BinarySearchJudgementTree2.jpg)
+      - ![](BinarySearchJudgementTree3.jpg)
+    - 特性：
+      1. 是平衡的二叉排序树，左<中<右
+      2. 只有最下面一层不满(不含失败结点)
+      3. 如果查找表有n个关键字，则失败结点有n+1个
+      4. 树高h=⌈log<sub>2</sub>(n+1)⌉，不含失败结点
+- 分块查找：
+  - 把表元素按照范围分为若干块，用索引表存储每个块中关键字最大值，先根据索引表找到关键字所在块，再在块中查找
+  - ![](Screenshot_20211024_161042_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_161144_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_161345_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_161416_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_161454_tv.danmaku.bili.jpg)】

@@ -1,0 +1,41 @@
+# B树
+- 定义：
+  - ![](Screenshot_20211007_213248_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211007_213754_tv.danmaku.bili.jpg)
+- 特性：
+  - ![](Screenshot_20211007_213954_tv.danmaku.bili.jpg)
+- 高度：
+  - ![](Screenshot_20211007_214557_tv.danmaku.bili.jpg)
+  - 方法1：
+  - ![](Screenshot_20211007_214603_tv.danmaku.bili.jpg)
+  - 方法2：
+  - ![](Screenshot_20211007_215054_tv.danmaku.bili.jpg)
+- 插入：
+  - ![](Screenshot_20211023_140255_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211023_140309_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211023_140330_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211023_140338_tv.danmaku.bili.jpg)
+- 删除：
+  - ![](Screenshot_20211023_140405_tv.danmaku.bili.jpg)
+  - 删除80：
+  - ![](Screenshot_20211023_140441_tv.danmaku.bili.jpg)
+  - 删除77：
+  - ![](Screenshot_20211023_140518_tv.danmaku.bili.jpg)
+  - 删除38：
+  - ![](Screenshot_20211024_164309_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_164323_tv.danmaku.bili.jpg)
+  - 删除90：
+  - ![](Screenshot_20211024_164619_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_164647_tv.danmaku.bili.jpg)
+  - 删除49：
+  - ![](Screenshot_20211024_164838_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_164911_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_164916_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_164923_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_164940_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_164950_tv.danmaku.bili.jpg)
+  - ![](Screenshot_20211024_165000_tv.danmaku.bili.jpg)
+- ![](Screenshot_20211023_140725_tv.danmaku.bili.jpg)
+# B+树
+- ![](Screenshot_20211023_141524_tv.danmaku.bili.jpg)
+- ![](Screenshot_20211023_142639_tv.danmaku.bili.jpg)
