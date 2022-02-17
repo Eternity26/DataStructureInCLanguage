@@ -83,10 +83,15 @@ all: CMakeFiles/DoubleLinkListWithHeadnode.dir/all
 all: CMakeFiles/LinkListWithoutHeadnode.dir/all
 all: CMakeFiles/SequenceListInStaticAllocation.dir/all
 all: CMakeFiles/LinkQueueWithHeadnode.dir/all
+all: CMakeFiles/InsertionSort.dir/all
 all: CMakeFiles/LinkQueueWithoutHeadnode.dir/all
 all: CMakeFiles/CycleSequenceQueue1.dir/all
 all: CMakeFiles/CycleSequenceQueue2.dir/all
 all: CMakeFiles/CycleSequenceQueue3.dir/all
+all: CMakeFiles/BubbleSort.dir/all
+all: CMakeFiles/InserionSortWithBinarySearch.dir/all
+all: CMakeFiles/SequenceBinaryTree.dir/all
+all: CMakeFiles/ShellSort.dir/all
 all: CMakeFiles/LinkStackWithoutHeadnode.dir/all
 all: CMakeFiles/SequenceStack1.dir/all
 all: CMakeFiles/FingPreOfInThread.dir/all
@@ -103,7 +108,6 @@ all: CMakeFiles/FindPostOfPostThread.dir/all
 all: CMakeFiles/FindPreOfPostThread.dir/all
 all: CMakeFiles/LinkBinaryTree.dir/all
 all: CMakeFiles/PreOrderTraverse.dir/all
-all: CMakeFiles/SequenceBinaryTree.dir/all
 all: CMakeFiles/CMakeCXXCompilerId.dir/all
 .PHONY : all
 
@@ -133,10 +137,15 @@ clean: CMakeFiles/DoubleLinkListWithHeadnode.dir/clean
 clean: CMakeFiles/LinkListWithoutHeadnode.dir/clean
 clean: CMakeFiles/SequenceListInStaticAllocation.dir/clean
 clean: CMakeFiles/LinkQueueWithHeadnode.dir/clean
+clean: CMakeFiles/InsertionSort.dir/clean
 clean: CMakeFiles/LinkQueueWithoutHeadnode.dir/clean
 clean: CMakeFiles/CycleSequenceQueue1.dir/clean
 clean: CMakeFiles/CycleSequenceQueue2.dir/clean
 clean: CMakeFiles/CycleSequenceQueue3.dir/clean
+clean: CMakeFiles/BubbleSort.dir/clean
+clean: CMakeFiles/InserionSortWithBinarySearch.dir/clean
+clean: CMakeFiles/SequenceBinaryTree.dir/clean
+clean: CMakeFiles/ShellSort.dir/clean
 clean: CMakeFiles/LinkStackWithoutHeadnode.dir/clean
 clean: CMakeFiles/SequenceStack1.dir/clean
 clean: CMakeFiles/FingPreOfInThread.dir/clean
@@ -153,7 +162,6 @@ clean: CMakeFiles/FindPostOfPostThread.dir/clean
 clean: CMakeFiles/FindPreOfPostThread.dir/clean
 clean: CMakeFiles/LinkBinaryTree.dir/clean
 clean: CMakeFiles/PreOrderTraverse.dir/clean
-clean: CMakeFiles/SequenceBinaryTree.dir/clean
 clean: CMakeFiles/CMakeCXXCompilerId.dir/clean
 .PHONY : clean
 
@@ -164,7 +172,7 @@ clean: CMakeFiles/CMakeCXXCompilerId.dir/clean
 CMakeFiles/LinkStackWithHeadnode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithHeadnode.dir\build.make CMakeFiles/LinkStackWithHeadnode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target LinkStackWithHeadnode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target LinkStackWithHeadnode"
 .PHONY : CMakeFiles/LinkStackWithHeadnode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -216,7 +224,7 @@ CMakeFiles/AdjacencyList.dir/clean:
 CMakeFiles/MatchParenthesesBracketsAndBraces.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MatchParenthesesBracketsAndBraces.dir\build.make CMakeFiles/MatchParenthesesBracketsAndBraces.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target MatchParenthesesBracketsAndBraces"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target MatchParenthesesBracketsAndBraces"
 .PHONY : CMakeFiles/MatchParenthesesBracketsAndBraces.dir/all
 
 # Build rule for subdir invocation for target.
@@ -268,7 +276,7 @@ CMakeFiles/AdjacencyMatrix.dir/clean:
 CMakeFiles/FindPostOfPreThread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPreThread.dir\build.make CMakeFiles/FindPostOfPreThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target FindPostOfPreThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target FindPostOfPreThread"
 .PHONY : CMakeFiles/FindPostOfPreThread.dir/all
 
 # Build rule for subdir invocation for target.
@@ -294,7 +302,7 @@ CMakeFiles/FindPostOfPreThread.dir/clean:
 CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleDoubleLinkListWithHeadnode.dir\build.make CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target CycleDoubleLinkListWithHeadnode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target CycleDoubleLinkListWithHeadnode"
 .PHONY : CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -320,7 +328,7 @@ CMakeFiles/CycleDoubleLinkListWithHeadnode.dir/clean:
 CMakeFiles/CreateInThread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreateInThread.dir\build.make CMakeFiles/CreateInThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target CreateInThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target CreateInThread"
 .PHONY : CMakeFiles/CreateInThread.dir/all
 
 # Build rule for subdir invocation for target.
@@ -346,7 +354,7 @@ CMakeFiles/CreateInThread.dir/clean:
 CMakeFiles/SequenceListInDynamicAllocation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInDynamicAllocation.dir\build.make CMakeFiles/SequenceListInDynamicAllocation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target SequenceListInDynamicAllocation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target SequenceListInDynamicAllocation"
 .PHONY : CMakeFiles/SequenceListInDynamicAllocation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -372,7 +380,7 @@ CMakeFiles/SequenceListInDynamicAllocation.dir/clean:
 CMakeFiles/DepthFirstSearchImplementedInAdjacencyMatrix.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DepthFirstSearchImplementedInAdjacencyMatrix.dir\build.make CMakeFiles/DepthFirstSearchImplementedInAdjacencyMatrix.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DepthFirstSearchImplementedInAdjacencyMatrix.dir\build.make CMakeFiles/DepthFirstSearchImplementedInAdjacencyMatrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target DepthFirstSearchImplementedInAdjacencyMatrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target DepthFirstSearchImplementedInAdjacencyMatrix"
 .PHONY : CMakeFiles/DepthFirstSearchImplementedInAdjacencyMatrix.dir/all
 
 # Build rule for subdir invocation for target.
@@ -398,7 +406,7 @@ CMakeFiles/DepthFirstSearchImplementedInAdjacencyMatrix.dir/clean:
 CMakeFiles/CreatePreThread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePreThread.dir\build.make CMakeFiles/CreatePreThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target CreatePreThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target CreatePreThread"
 .PHONY : CMakeFiles/CreatePreThread.dir/all
 
 # Build rule for subdir invocation for target.
@@ -476,7 +484,7 @@ CMakeFiles/BreadthFirstSearchImplementedInAdjacencyMatrix.dir/clean:
 CMakeFiles/FindPreOfPreThread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPreThread.dir\build.make CMakeFiles/FindPreOfPreThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target FindPreOfPreThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target FindPreOfPreThread"
 .PHONY : CMakeFiles/FindPreOfPreThread.dir/all
 
 # Build rule for subdir invocation for target.
@@ -502,7 +510,7 @@ CMakeFiles/FindPreOfPreThread.dir/clean:
 CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleLinkListWithHeadnodeAndTailpointer.dir\build.make CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target CycleLinkListWithHeadnodeAndTailpointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target CycleLinkListWithHeadnodeAndTailpointer"
 .PHONY : CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -528,7 +536,7 @@ CMakeFiles/CycleLinkListWithHeadnodeAndTailpointer.dir/clean:
 CMakeFiles/HeapSequenceString.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSequenceString.dir\build.make CMakeFiles/HeapSequenceString.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target HeapSequenceString"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target HeapSequenceString"
 .PHONY : CMakeFiles/HeapSequenceString.dir/all
 
 # Build rule for subdir invocation for target.
@@ -554,7 +562,7 @@ CMakeFiles/HeapSequenceString.dir/clean:
 CMakeFiles/LinkListWithHeadnode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithHeadnode.dir\build.make CMakeFiles/LinkListWithHeadnode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target LinkListWithHeadnode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target LinkListWithHeadnode"
 .PHONY : CMakeFiles/LinkListWithHeadnode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -580,7 +588,7 @@ CMakeFiles/LinkListWithHeadnode.dir/clean:
 CMakeFiles/DepthFirstSearchImplementedInAdjacencyList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DepthFirstSearchImplementedInAdjacencyList.dir\build.make CMakeFiles/DepthFirstSearchImplementedInAdjacencyList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DepthFirstSearchImplementedInAdjacencyList.dir\build.make CMakeFiles/DepthFirstSearchImplementedInAdjacencyList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target DepthFirstSearchImplementedInAdjacencyList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target DepthFirstSearchImplementedInAdjacencyList"
 .PHONY : CMakeFiles/DepthFirstSearchImplementedInAdjacencyList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -606,7 +614,7 @@ CMakeFiles/DepthFirstSearchImplementedInAdjacencyList.dir/clean:
 CMakeFiles/DoubleLinkListWithHeadnode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinkListWithHeadnode.dir\build.make CMakeFiles/DoubleLinkListWithHeadnode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target DoubleLinkListWithHeadnode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target DoubleLinkListWithHeadnode"
 .PHONY : CMakeFiles/DoubleLinkListWithHeadnode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -632,7 +640,7 @@ CMakeFiles/DoubleLinkListWithHeadnode.dir/clean:
 CMakeFiles/LinkListWithoutHeadnode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkListWithoutHeadnode.dir\build.make CMakeFiles/LinkListWithoutHeadnode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target LinkListWithoutHeadnode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target LinkListWithoutHeadnode"
 .PHONY : CMakeFiles/LinkListWithoutHeadnode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -658,7 +666,7 @@ CMakeFiles/LinkListWithoutHeadnode.dir/clean:
 CMakeFiles/SequenceListInStaticAllocation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceListInStaticAllocation.dir\build.make CMakeFiles/SequenceListInStaticAllocation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target SequenceListInStaticAllocation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target SequenceListInStaticAllocation"
 .PHONY : CMakeFiles/SequenceListInStaticAllocation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -684,7 +692,7 @@ CMakeFiles/SequenceListInStaticAllocation.dir/clean:
 CMakeFiles/LinkQueueWithHeadnode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithHeadnode.dir\build.make CMakeFiles/LinkQueueWithHeadnode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target LinkQueueWithHeadnode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target LinkQueueWithHeadnode"
 .PHONY : CMakeFiles/LinkQueueWithHeadnode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -704,13 +712,39 @@ CMakeFiles/LinkQueueWithHeadnode.dir/clean:
 .PHONY : CMakeFiles/LinkQueueWithHeadnode.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/InsertionSort.dir
+
+# All Build rule for target.
+CMakeFiles/InsertionSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target InsertionSort"
+.PHONY : CMakeFiles/InsertionSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/InsertionSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/InsertionSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/InsertionSort.dir/rule
+
+# Convenience name for target.
+InsertionSort: CMakeFiles/InsertionSort.dir/rule
+.PHONY : InsertionSort
+
+# clean rule for target.
+CMakeFiles/InsertionSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/clean
+.PHONY : CMakeFiles/InsertionSort.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/LinkQueueWithoutHeadnode.dir
 
 # All Build rule for target.
 CMakeFiles/LinkQueueWithoutHeadnode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkQueueWithoutHeadnode.dir\build.make CMakeFiles/LinkQueueWithoutHeadnode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target LinkQueueWithoutHeadnode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target LinkQueueWithoutHeadnode"
 .PHONY : CMakeFiles/LinkQueueWithoutHeadnode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -736,7 +770,7 @@ CMakeFiles/LinkQueueWithoutHeadnode.dir/clean:
 CMakeFiles/CycleSequenceQueue1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue1.dir\build.make CMakeFiles/CycleSequenceQueue1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target CycleSequenceQueue1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target CycleSequenceQueue1"
 .PHONY : CMakeFiles/CycleSequenceQueue1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -762,7 +796,7 @@ CMakeFiles/CycleSequenceQueue1.dir/clean:
 CMakeFiles/CycleSequenceQueue2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue2.dir\build.make CMakeFiles/CycleSequenceQueue2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target CycleSequenceQueue2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target CycleSequenceQueue2"
 .PHONY : CMakeFiles/CycleSequenceQueue2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -788,7 +822,7 @@ CMakeFiles/CycleSequenceQueue2.dir/clean:
 CMakeFiles/CycleSequenceQueue3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target CycleSequenceQueue3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target CycleSequenceQueue3"
 .PHONY : CMakeFiles/CycleSequenceQueue3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -808,13 +842,117 @@ CMakeFiles/CycleSequenceQueue3.dir/clean:
 .PHONY : CMakeFiles/CycleSequenceQueue3.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/BubbleSort.dir
+
+# All Build rule for target.
+CMakeFiles/BubbleSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target BubbleSort"
+.PHONY : CMakeFiles/BubbleSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BubbleSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BubbleSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/BubbleSort.dir/rule
+
+# Convenience name for target.
+BubbleSort: CMakeFiles/BubbleSort.dir/rule
+.PHONY : BubbleSort
+
+# clean rule for target.
+CMakeFiles/BubbleSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/clean
+.PHONY : CMakeFiles/BubbleSort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/InserionSortWithBinarySearch.dir
+
+# All Build rule for target.
+CMakeFiles/InserionSortWithBinarySearch.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InserionSortWithBinarySearch.dir\build.make CMakeFiles/InserionSortWithBinarySearch.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InserionSortWithBinarySearch.dir\build.make CMakeFiles/InserionSortWithBinarySearch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target InserionSortWithBinarySearch"
+.PHONY : CMakeFiles/InserionSortWithBinarySearch.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/InserionSortWithBinarySearch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/InserionSortWithBinarySearch.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/InserionSortWithBinarySearch.dir/rule
+
+# Convenience name for target.
+InserionSortWithBinarySearch: CMakeFiles/InserionSortWithBinarySearch.dir/rule
+.PHONY : InserionSortWithBinarySearch
+
+# clean rule for target.
+CMakeFiles/InserionSortWithBinarySearch.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InserionSortWithBinarySearch.dir\build.make CMakeFiles/InserionSortWithBinarySearch.dir/clean
+.PHONY : CMakeFiles/InserionSortWithBinarySearch.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SequenceBinaryTree.dir
+
+# All Build rule for target.
+CMakeFiles/SequenceBinaryTree.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target SequenceBinaryTree"
+.PHONY : CMakeFiles/SequenceBinaryTree.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SequenceBinaryTree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SequenceBinaryTree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/SequenceBinaryTree.dir/rule
+
+# Convenience name for target.
+SequenceBinaryTree: CMakeFiles/SequenceBinaryTree.dir/rule
+.PHONY : SequenceBinaryTree
+
+# clean rule for target.
+CMakeFiles/SequenceBinaryTree.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/clean
+.PHONY : CMakeFiles/SequenceBinaryTree.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ShellSort.dir
+
+# All Build rule for target.
+CMakeFiles/ShellSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=89,90 "Built target ShellSort"
+.PHONY : CMakeFiles/ShellSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ShellSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ShellSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ShellSort.dir/rule
+
+# Convenience name for target.
+ShellSort: CMakeFiles/ShellSort.dir/rule
+.PHONY : ShellSort
+
+# clean rule for target.
+CMakeFiles/ShellSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/clean
+.PHONY : CMakeFiles/ShellSort.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/LinkStackWithoutHeadnode.dir
 
 # All Build rule for target.
 CMakeFiles/LinkStackWithoutHeadnode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkStackWithoutHeadnode.dir\build.make CMakeFiles/LinkStackWithoutHeadnode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target LinkStackWithoutHeadnode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target LinkStackWithoutHeadnode"
 .PHONY : CMakeFiles/LinkStackWithoutHeadnode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -840,7 +978,7 @@ CMakeFiles/LinkStackWithoutHeadnode.dir/clean:
 CMakeFiles/SequenceStack1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack1.dir\build.make CMakeFiles/SequenceStack1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target SequenceStack1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target SequenceStack1"
 .PHONY : CMakeFiles/SequenceStack1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -866,7 +1004,7 @@ CMakeFiles/SequenceStack1.dir/clean:
 CMakeFiles/FingPreOfInThread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingPreOfInThread.dir\build.make CMakeFiles/FingPreOfInThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target FingPreOfInThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target FingPreOfInThread"
 .PHONY : CMakeFiles/FingPreOfInThread.dir/all
 
 # Build rule for subdir invocation for target.
@@ -892,7 +1030,7 @@ CMakeFiles/FingPreOfInThread.dir/clean:
 CMakeFiles/SequenceStack2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceStack2.dir\build.make CMakeFiles/SequenceStack2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target SequenceStack2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target SequenceStack2"
 .PHONY : CMakeFiles/SequenceStack2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -918,7 +1056,7 @@ CMakeFiles/SequenceStack2.dir/clean:
 CMakeFiles/SharedSequenceStack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SharedSequenceStack.dir\build.make CMakeFiles/SharedSequenceStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target SharedSequenceStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target SharedSequenceStack"
 .PHONY : CMakeFiles/SharedSequenceStack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -944,7 +1082,7 @@ CMakeFiles/SharedSequenceStack.dir/clean:
 CMakeFiles/LinkString.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkString.dir\build.make CMakeFiles/LinkString.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target LinkString"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target LinkString"
 .PHONY : CMakeFiles/LinkString.dir/all
 
 # Build rule for subdir invocation for target.
@@ -970,7 +1108,7 @@ CMakeFiles/LinkString.dir/clean:
 CMakeFiles/LevelTraverse.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LevelTraverse.dir\build.make CMakeFiles/LevelTraverse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target LevelTraverse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target LevelTraverse"
 .PHONY : CMakeFiles/LevelTraverse.dir/all
 
 # Build rule for subdir invocation for target.
@@ -996,7 +1134,7 @@ CMakeFiles/LevelTraverse.dir/clean:
 CMakeFiles/StaticSequenceString.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticSequenceString.dir\build.make CMakeFiles/StaticSequenceString.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target StaticSequenceString"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=91,92 "Built target StaticSequenceString"
 .PHONY : CMakeFiles/StaticSequenceString.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1022,7 +1160,7 @@ CMakeFiles/StaticSequenceString.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=93,94 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1074,7 +1212,7 @@ CMakeFiles/BinarySearchTree.dir/clean:
 CMakeFiles/CreatePostThread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CreatePostThread.dir\build.make CMakeFiles/CreatePostThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target CreatePostThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target CreatePostThread"
 .PHONY : CMakeFiles/CreatePostThread.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1100,7 +1238,7 @@ CMakeFiles/CreatePostThread.dir/clean:
 CMakeFiles/FindPostOfInThread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfInThread.dir\build.make CMakeFiles/FindPostOfInThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target FindPostOfInThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target FindPostOfInThread"
 .PHONY : CMakeFiles/FindPostOfInThread.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1126,7 +1264,7 @@ CMakeFiles/FindPostOfInThread.dir/clean:
 CMakeFiles/FindPostOfPostThread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPostOfPostThread.dir\build.make CMakeFiles/FindPostOfPostThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target FindPostOfPostThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target FindPostOfPostThread"
 .PHONY : CMakeFiles/FindPostOfPostThread.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1152,7 +1290,7 @@ CMakeFiles/FindPostOfPostThread.dir/clean:
 CMakeFiles/FindPreOfPostThread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FindPreOfPostThread.dir\build.make CMakeFiles/FindPreOfPostThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target FindPreOfPostThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target FindPreOfPostThread"
 .PHONY : CMakeFiles/FindPreOfPostThread.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1178,7 +1316,7 @@ CMakeFiles/FindPreOfPostThread.dir/clean:
 CMakeFiles/LinkBinaryTree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkBinaryTree.dir\build.make CMakeFiles/LinkBinaryTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target LinkBinaryTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target LinkBinaryTree"
 .PHONY : CMakeFiles/LinkBinaryTree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1204,7 +1342,7 @@ CMakeFiles/LinkBinaryTree.dir/clean:
 CMakeFiles/PreOrderTraverse.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target PreOrderTraverse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target PreOrderTraverse"
 .PHONY : CMakeFiles/PreOrderTraverse.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1224,39 +1362,13 @@ CMakeFiles/PreOrderTraverse.dir/clean:
 .PHONY : CMakeFiles/PreOrderTraverse.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SequenceBinaryTree.dir
-
-# All Build rule for target.
-CMakeFiles/SequenceBinaryTree.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target SequenceBinaryTree"
-.PHONY : CMakeFiles/SequenceBinaryTree.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/SequenceBinaryTree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SequenceBinaryTree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/SequenceBinaryTree.dir/rule
-
-# Convenience name for target.
-SequenceBinaryTree: CMakeFiles/SequenceBinaryTree.dir/rule
-.PHONY : SequenceBinaryTree
-
-# clean rule for target.
-CMakeFiles/SequenceBinaryTree.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/clean
-.PHONY : CMakeFiles/SequenceBinaryTree.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/CMakeCXXCompilerId.dir
 
 # All Build rule for target.
 CMakeFiles/CMakeCXXCompilerId.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target CMakeCXXCompilerId"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\repo\DataStructureInCLanguage\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target CMakeCXXCompilerId"
 .PHONY : CMakeFiles/CMakeCXXCompilerId.dir/all
 
 # Build rule for subdir invocation for target.

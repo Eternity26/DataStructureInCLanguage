@@ -389,6 +389,19 @@ LinkQueueWithHeadnode/fast:
 .PHONY : LinkQueueWithHeadnode/fast
 
 #=============================================================================
+# Target rules for targets named InsertionSort
+
+# Build rule for target.
+InsertionSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 InsertionSort
+.PHONY : InsertionSort
+
+# fast build rule for target.
+InsertionSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/build
+.PHONY : InsertionSort/fast
+
+#=============================================================================
 # Target rules for targets named LinkQueueWithoutHeadnode
 
 # Build rule for target.
@@ -439,6 +452,58 @@ CycleSequenceQueue3: cmake_check_build_system
 CycleSequenceQueue3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/build
 .PHONY : CycleSequenceQueue3/fast
+
+#=============================================================================
+# Target rules for targets named BubbleSort
+
+# Build rule for target.
+BubbleSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BubbleSort
+.PHONY : BubbleSort
+
+# fast build rule for target.
+BubbleSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
+.PHONY : BubbleSort/fast
+
+#=============================================================================
+# Target rules for targets named InserionSortWithBinarySearch
+
+# Build rule for target.
+InserionSortWithBinarySearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 InserionSortWithBinarySearch
+.PHONY : InserionSortWithBinarySearch
+
+# fast build rule for target.
+InserionSortWithBinarySearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InserionSortWithBinarySearch.dir\build.make CMakeFiles/InserionSortWithBinarySearch.dir/build
+.PHONY : InserionSortWithBinarySearch/fast
+
+#=============================================================================
+# Target rules for targets named SequenceBinaryTree
+
+# Build rule for target.
+SequenceBinaryTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SequenceBinaryTree
+.PHONY : SequenceBinaryTree
+
+# fast build rule for target.
+SequenceBinaryTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/build
+.PHONY : SequenceBinaryTree/fast
+
+#=============================================================================
+# Target rules for targets named ShellSort
+
+# Build rule for target.
+ShellSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ShellSort
+.PHONY : ShellSort
+
+# fast build rule for target.
+ShellSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/build
+.PHONY : ShellSort/fast
 
 #=============================================================================
 # Target rules for targets named LinkStackWithoutHeadnode
@@ -647,19 +712,6 @@ PreOrderTraverse: cmake_check_build_system
 PreOrderTraverse/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PreOrderTraverse.dir\build.make CMakeFiles/PreOrderTraverse.dir/build
 .PHONY : PreOrderTraverse/fast
-
-#=============================================================================
-# Target rules for targets named SequenceBinaryTree
-
-# Build rule for target.
-SequenceBinaryTree: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SequenceBinaryTree
-.PHONY : SequenceBinaryTree
-
-# fast build rule for target.
-SequenceBinaryTree/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SequenceBinaryTree.dir\build.make CMakeFiles/SequenceBinaryTree.dir/build
-.PHONY : SequenceBinaryTree/fast
 
 #=============================================================================
 # Target rules for targets named CMakeCXXCompilerId
@@ -1129,6 +1181,102 @@ Queue/SequenceQueue/CycleSequenceQueue3.s: Queue/SequenceQueue/CycleSequenceQueu
 Queue/SequenceQueue/CycleSequenceQueue3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CycleSequenceQueue3.dir\build.make CMakeFiles/CycleSequenceQueue3.dir/Queue/SequenceQueue/CycleSequenceQueue3.cpp.s
 .PHONY : Queue/SequenceQueue/CycleSequenceQueue3.cpp.s
+
+Sort/BubbleSort.obj: Sort/BubbleSort.cpp.obj
+.PHONY : Sort/BubbleSort.obj
+
+# target to build an object file
+Sort/BubbleSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/Sort/BubbleSort.cpp.obj
+.PHONY : Sort/BubbleSort.cpp.obj
+
+Sort/BubbleSort.i: Sort/BubbleSort.cpp.i
+.PHONY : Sort/BubbleSort.i
+
+# target to preprocess a source file
+Sort/BubbleSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/Sort/BubbleSort.cpp.i
+.PHONY : Sort/BubbleSort.cpp.i
+
+Sort/BubbleSort.s: Sort/BubbleSort.cpp.s
+.PHONY : Sort/BubbleSort.s
+
+# target to generate assembly for a file
+Sort/BubbleSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/Sort/BubbleSort.cpp.s
+.PHONY : Sort/BubbleSort.cpp.s
+
+Sort/InserionSortWithBinarySearch.obj: Sort/InserionSortWithBinarySearch.cpp.obj
+.PHONY : Sort/InserionSortWithBinarySearch.obj
+
+# target to build an object file
+Sort/InserionSortWithBinarySearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InserionSortWithBinarySearch.dir\build.make CMakeFiles/InserionSortWithBinarySearch.dir/Sort/InserionSortWithBinarySearch.cpp.obj
+.PHONY : Sort/InserionSortWithBinarySearch.cpp.obj
+
+Sort/InserionSortWithBinarySearch.i: Sort/InserionSortWithBinarySearch.cpp.i
+.PHONY : Sort/InserionSortWithBinarySearch.i
+
+# target to preprocess a source file
+Sort/InserionSortWithBinarySearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InserionSortWithBinarySearch.dir\build.make CMakeFiles/InserionSortWithBinarySearch.dir/Sort/InserionSortWithBinarySearch.cpp.i
+.PHONY : Sort/InserionSortWithBinarySearch.cpp.i
+
+Sort/InserionSortWithBinarySearch.s: Sort/InserionSortWithBinarySearch.cpp.s
+.PHONY : Sort/InserionSortWithBinarySearch.s
+
+# target to generate assembly for a file
+Sort/InserionSortWithBinarySearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InserionSortWithBinarySearch.dir\build.make CMakeFiles/InserionSortWithBinarySearch.dir/Sort/InserionSortWithBinarySearch.cpp.s
+.PHONY : Sort/InserionSortWithBinarySearch.cpp.s
+
+Sort/InsertionSort.obj: Sort/InsertionSort.cpp.obj
+.PHONY : Sort/InsertionSort.obj
+
+# target to build an object file
+Sort/InsertionSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/Sort/InsertionSort.cpp.obj
+.PHONY : Sort/InsertionSort.cpp.obj
+
+Sort/InsertionSort.i: Sort/InsertionSort.cpp.i
+.PHONY : Sort/InsertionSort.i
+
+# target to preprocess a source file
+Sort/InsertionSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/Sort/InsertionSort.cpp.i
+.PHONY : Sort/InsertionSort.cpp.i
+
+Sort/InsertionSort.s: Sort/InsertionSort.cpp.s
+.PHONY : Sort/InsertionSort.s
+
+# target to generate assembly for a file
+Sort/InsertionSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/Sort/InsertionSort.cpp.s
+.PHONY : Sort/InsertionSort.cpp.s
+
+Sort/ShellSort.obj: Sort/ShellSort.cpp.obj
+.PHONY : Sort/ShellSort.obj
+
+# target to build an object file
+Sort/ShellSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/Sort/ShellSort.cpp.obj
+.PHONY : Sort/ShellSort.cpp.obj
+
+Sort/ShellSort.i: Sort/ShellSort.cpp.i
+.PHONY : Sort/ShellSort.i
+
+# target to preprocess a source file
+Sort/ShellSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/Sort/ShellSort.cpp.i
+.PHONY : Sort/ShellSort.cpp.i
+
+Sort/ShellSort.s: Sort/ShellSort.cpp.s
+.PHONY : Sort/ShellSort.s
+
+# target to generate assembly for a file
+Sort/ShellSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/Sort/ShellSort.cpp.s
+.PHONY : Sort/ShellSort.cpp.s
 
 Stack/Application/MatchParenthesesBracketsAndBraces.obj: Stack/Application/MatchParenthesesBracketsAndBraces.cpp.obj
 .PHONY : Stack/Application/MatchParenthesesBracketsAndBraces.obj
@@ -1719,6 +1867,7 @@ help:
 	@echo ... BinarySearchTree
 	@echo ... BreadthFirstSearchImplementedInAdjacencyList
 	@echo ... BreadthFirstSearchImplementedInAdjacencyMatrix
+	@echo ... BubbleSort
 	@echo ... CMakeCXXCompilerId
 	@echo ... CreateInThread
 	@echo ... CreatePostThread
@@ -1738,6 +1887,8 @@ help:
 	@echo ... FindPreOfPreThread
 	@echo ... FingPreOfInThread
 	@echo ... HeapSequenceString
+	@echo ... InserionSortWithBinarySearch
+	@echo ... InsertionSort
 	@echo ... LevelTraverse
 	@echo ... LinkBinaryTree
 	@echo ... LinkListWithHeadnode
@@ -1755,6 +1906,7 @@ help:
 	@echo ... SequenceStack1
 	@echo ... SequenceStack2
 	@echo ... SharedSequenceStack
+	@echo ... ShellSort
 	@echo ... StaticSequenceString
 	@echo ... main
 	@echo ... CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.obj
@@ -1814,6 +1966,18 @@ help:
 	@echo ... Queue/SequenceQueue/CycleSequenceQueue3.obj
 	@echo ... Queue/SequenceQueue/CycleSequenceQueue3.i
 	@echo ... Queue/SequenceQueue/CycleSequenceQueue3.s
+	@echo ... Sort/BubbleSort.obj
+	@echo ... Sort/BubbleSort.i
+	@echo ... Sort/BubbleSort.s
+	@echo ... Sort/InserionSortWithBinarySearch.obj
+	@echo ... Sort/InserionSortWithBinarySearch.i
+	@echo ... Sort/InserionSortWithBinarySearch.s
+	@echo ... Sort/InsertionSort.obj
+	@echo ... Sort/InsertionSort.i
+	@echo ... Sort/InsertionSort.s
+	@echo ... Sort/ShellSort.obj
+	@echo ... Sort/ShellSort.i
+	@echo ... Sort/ShellSort.s
 	@echo ... Stack/Application/MatchParenthesesBracketsAndBraces.obj
 	@echo ... Stack/Application/MatchParenthesesBracketsAndBraces.i
 	@echo ... Stack/Application/MatchParenthesesBracketsAndBraces.s

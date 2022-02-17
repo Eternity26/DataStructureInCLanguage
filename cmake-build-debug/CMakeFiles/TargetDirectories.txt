@@ -19,10 +19,15 @@ D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/DoubleLinkListWith
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkListWithoutHeadnode.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceListInStaticAllocation.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkQueueWithHeadnode.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/InsertionSort.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkQueueWithoutHeadnode.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CycleSequenceQueue1.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CycleSequenceQueue2.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CycleSequenceQueue3.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/BubbleSort.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/InserionSortWithBinarySearch.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceBinaryTree.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/ShellSort.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkStackWithoutHeadnode.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceStack1.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/FingPreOfInThread.dir
@@ -40,6 +45,5 @@ D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/FindPostOfPostThre
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/FindPreOfPostThread.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkBinaryTree.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/PreOrderTraverse.dir
-D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceBinaryTree.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/rebuild_cache.dir
