@@ -20,7 +20,9 @@
     -- src/BubbleSort.cpp will be compiled to bin/BubbleSort
     -- src/InserionSortWithBinarySearch.cpp will be compiled to bin/InserionSortWithBinarySearch
     -- src/InsertionSort.cpp will be compiled to bin/InsertionSort
+    -- src/QuickSort.cpp will be compiled to bin/QuickSort
     -- src/ShellSort.cpp will be compiled to bin/ShellSort
+    -- src/SimpleSelectionSort.cpp will be compiled to bin/SimpleSelectionSort
     -- src/MatchParenthesesBracketsAndBraces.cpp will be compiled to bin/MatchParenthesesBracketsAndBraces
     -- src/LinkStackWithHeadnode.cpp will be compiled to bin/LinkStackWithHeadnode
     -- src/LinkStackWithoutHeadnode.cpp will be compiled to bin/LinkStackWithoutHeadnode

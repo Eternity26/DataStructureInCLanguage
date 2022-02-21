@@ -428,6 +428,19 @@ CycleSequenceQueue1/fast:
 .PHONY : CycleSequenceQueue1/fast
 
 #=============================================================================
+# Target rules for targets named SimpleSelectionSort
+
+# Build rule for target.
+SimpleSelectionSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SimpleSelectionSort
+.PHONY : SimpleSelectionSort
+
+# fast build rule for target.
+SimpleSelectionSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleSelectionSort.dir\build.make CMakeFiles/SimpleSelectionSort.dir/build
+.PHONY : SimpleSelectionSort/fast
+
+#=============================================================================
 # Target rules for targets named CycleSequenceQueue2
 
 # Build rule for target.
@@ -478,6 +491,19 @@ InserionSortWithBinarySearch: cmake_check_build_system
 InserionSortWithBinarySearch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InserionSortWithBinarySearch.dir\build.make CMakeFiles/InserionSortWithBinarySearch.dir/build
 .PHONY : InserionSortWithBinarySearch/fast
+
+#=============================================================================
+# Target rules for targets named QuickSort
+
+# Build rule for target.
+QuickSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 QuickSort
+.PHONY : QuickSort
+
+# fast build rule for target.
+QuickSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/build
+.PHONY : QuickSort/fast
 
 #=============================================================================
 # Target rules for targets named SequenceBinaryTree
@@ -1254,6 +1280,30 @@ Sort/InsertionSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertionSort.dir\build.make CMakeFiles/InsertionSort.dir/Sort/InsertionSort.cpp.s
 .PHONY : Sort/InsertionSort.cpp.s
 
+Sort/QuickSort.obj: Sort/QuickSort.cpp.obj
+.PHONY : Sort/QuickSort.obj
+
+# target to build an object file
+Sort/QuickSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/Sort/QuickSort.cpp.obj
+.PHONY : Sort/QuickSort.cpp.obj
+
+Sort/QuickSort.i: Sort/QuickSort.cpp.i
+.PHONY : Sort/QuickSort.i
+
+# target to preprocess a source file
+Sort/QuickSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/Sort/QuickSort.cpp.i
+.PHONY : Sort/QuickSort.cpp.i
+
+Sort/QuickSort.s: Sort/QuickSort.cpp.s
+.PHONY : Sort/QuickSort.s
+
+# target to generate assembly for a file
+Sort/QuickSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/Sort/QuickSort.cpp.s
+.PHONY : Sort/QuickSort.cpp.s
+
 Sort/ShellSort.obj: Sort/ShellSort.cpp.obj
 .PHONY : Sort/ShellSort.obj
 
@@ -1277,6 +1327,30 @@ Sort/ShellSort.s: Sort/ShellSort.cpp.s
 Sort/ShellSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ShellSort.dir\build.make CMakeFiles/ShellSort.dir/Sort/ShellSort.cpp.s
 .PHONY : Sort/ShellSort.cpp.s
+
+Sort/SimpleSelectionSort.obj: Sort/SimpleSelectionSort.cpp.obj
+.PHONY : Sort/SimpleSelectionSort.obj
+
+# target to build an object file
+Sort/SimpleSelectionSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleSelectionSort.dir\build.make CMakeFiles/SimpleSelectionSort.dir/Sort/SimpleSelectionSort.cpp.obj
+.PHONY : Sort/SimpleSelectionSort.cpp.obj
+
+Sort/SimpleSelectionSort.i: Sort/SimpleSelectionSort.cpp.i
+.PHONY : Sort/SimpleSelectionSort.i
+
+# target to preprocess a source file
+Sort/SimpleSelectionSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleSelectionSort.dir\build.make CMakeFiles/SimpleSelectionSort.dir/Sort/SimpleSelectionSort.cpp.i
+.PHONY : Sort/SimpleSelectionSort.cpp.i
+
+Sort/SimpleSelectionSort.s: Sort/SimpleSelectionSort.cpp.s
+.PHONY : Sort/SimpleSelectionSort.s
+
+# target to generate assembly for a file
+Sort/SimpleSelectionSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleSelectionSort.dir\build.make CMakeFiles/SimpleSelectionSort.dir/Sort/SimpleSelectionSort.cpp.s
+.PHONY : Sort/SimpleSelectionSort.cpp.s
 
 Stack/Application/MatchParenthesesBracketsAndBraces.obj: Stack/Application/MatchParenthesesBracketsAndBraces.cpp.obj
 .PHONY : Stack/Application/MatchParenthesesBracketsAndBraces.obj
@@ -1900,6 +1974,7 @@ help:
 	@echo ... LinkString
 	@echo ... MatchParenthesesBracketsAndBraces
 	@echo ... PreOrderTraverse
+	@echo ... QuickSort
 	@echo ... SequenceBinaryTree
 	@echo ... SequenceListInDynamicAllocation
 	@echo ... SequenceListInStaticAllocation
@@ -1907,6 +1982,7 @@ help:
 	@echo ... SequenceStack2
 	@echo ... SharedSequenceStack
 	@echo ... ShellSort
+	@echo ... SimpleSelectionSort
 	@echo ... StaticSequenceString
 	@echo ... main
 	@echo ... CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.obj
@@ -1975,9 +2051,15 @@ help:
 	@echo ... Sort/InsertionSort.obj
 	@echo ... Sort/InsertionSort.i
 	@echo ... Sort/InsertionSort.s
+	@echo ... Sort/QuickSort.obj
+	@echo ... Sort/QuickSort.i
+	@echo ... Sort/QuickSort.s
 	@echo ... Sort/ShellSort.obj
 	@echo ... Sort/ShellSort.i
 	@echo ... Sort/ShellSort.s
+	@echo ... Sort/SimpleSelectionSort.obj
+	@echo ... Sort/SimpleSelectionSort.i
+	@echo ... Sort/SimpleSelectionSort.s
 	@echo ... Stack/Application/MatchParenthesesBracketsAndBraces.obj
 	@echo ... Stack/Application/MatchParenthesesBracketsAndBraces.i
 	@echo ... Stack/Application/MatchParenthesesBracketsAndBraces.s

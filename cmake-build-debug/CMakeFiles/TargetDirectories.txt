@@ -22,10 +22,12 @@ D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkQueueWithHeadn
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/InsertionSort.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkQueueWithoutHeadnode.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CycleSequenceQueue1.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SimpleSelectionSort.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CycleSequenceQueue2.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CycleSequenceQueue3.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/BubbleSort.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/InserionSortWithBinarySearch.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/QuickSort.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceBinaryTree.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/ShellSort.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/LinkStackWithoutHeadnode.dir
