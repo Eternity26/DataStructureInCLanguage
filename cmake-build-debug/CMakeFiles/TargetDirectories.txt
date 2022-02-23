@@ -26,6 +26,7 @@ D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SimpleSelectionSor
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CycleSequenceQueue2.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/CycleSequenceQueue3.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/BubbleSort.dir
+D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/HeapSort.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/InserionSortWithBinarySearch.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/QuickSort.dir
 D:/repo/DataStructureInCLanguage/cmake-build-debug/CMakeFiles/SequenceBinaryTree.dir

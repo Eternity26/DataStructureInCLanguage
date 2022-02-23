@@ -480,6 +480,19 @@ BubbleSort/fast:
 .PHONY : BubbleSort/fast
 
 #=============================================================================
+# Target rules for targets named HeapSort
+
+# Build rule for target.
+HeapSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HeapSort
+.PHONY : HeapSort
+
+# fast build rule for target.
+HeapSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/build
+.PHONY : HeapSort/fast
+
+#=============================================================================
 # Target rules for targets named InserionSortWithBinarySearch
 
 # Build rule for target.
@@ -1232,6 +1245,30 @@ Sort/BubbleSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/Sort/BubbleSort.cpp.s
 .PHONY : Sort/BubbleSort.cpp.s
 
+Sort/HeapSort.obj: Sort/HeapSort.cpp.obj
+.PHONY : Sort/HeapSort.obj
+
+# target to build an object file
+Sort/HeapSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/Sort/HeapSort.cpp.obj
+.PHONY : Sort/HeapSort.cpp.obj
+
+Sort/HeapSort.i: Sort/HeapSort.cpp.i
+.PHONY : Sort/HeapSort.i
+
+# target to preprocess a source file
+Sort/HeapSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/Sort/HeapSort.cpp.i
+.PHONY : Sort/HeapSort.cpp.i
+
+Sort/HeapSort.s: Sort/HeapSort.cpp.s
+.PHONY : Sort/HeapSort.s
+
+# target to generate assembly for a file
+Sort/HeapSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HeapSort.dir\build.make CMakeFiles/HeapSort.dir/Sort/HeapSort.cpp.s
+.PHONY : Sort/HeapSort.cpp.s
+
 Sort/InserionSortWithBinarySearch.obj: Sort/InserionSortWithBinarySearch.cpp.obj
 .PHONY : Sort/InserionSortWithBinarySearch.obj
 
@@ -1961,6 +1998,7 @@ help:
 	@echo ... FindPreOfPreThread
 	@echo ... FingPreOfInThread
 	@echo ... HeapSequenceString
+	@echo ... HeapSort
 	@echo ... InserionSortWithBinarySearch
 	@echo ... InsertionSort
 	@echo ... LevelTraverse
@@ -2045,6 +2083,9 @@ help:
 	@echo ... Sort/BubbleSort.obj
 	@echo ... Sort/BubbleSort.i
 	@echo ... Sort/BubbleSort.s
+	@echo ... Sort/HeapSort.obj
+	@echo ... Sort/HeapSort.i
+	@echo ... Sort/HeapSort.s
 	@echo ... Sort/InserionSortWithBinarySearch.obj
 	@echo ... Sort/InserionSortWithBinarySearch.i
 	@echo ... Sort/InserionSortWithBinarySearch.s

@@ -79,6 +79,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CycleSequenceQueue2.dir/DependInfo.cmake"
   "CMakeFiles/CycleSequenceQueue3.dir/DependInfo.cmake"
   "CMakeFiles/BubbleSort.dir/DependInfo.cmake"
+  "CMakeFiles/HeapSort.dir/DependInfo.cmake"
   "CMakeFiles/InserionSortWithBinarySearch.dir/DependInfo.cmake"
   "CMakeFiles/QuickSort.dir/DependInfo.cmake"
   "CMakeFiles/SequenceBinaryTree.dir/DependInfo.cmake"

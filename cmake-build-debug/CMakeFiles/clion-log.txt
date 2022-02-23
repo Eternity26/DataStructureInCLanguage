@@ -18,6 +18,7 @@
     -- src/CycleSequenceQueue2.cpp will be compiled to bin/CycleSequenceQueue2
     -- src/CycleSequenceQueue3.cpp will be compiled to bin/CycleSequenceQueue3
     -- src/BubbleSort.cpp will be compiled to bin/BubbleSort
+    -- src/HeapSort.cpp will be compiled to bin/HeapSort
     -- src/InserionSortWithBinarySearch.cpp will be compiled to bin/InserionSortWithBinarySearch
     -- src/InsertionSort.cpp will be compiled to bin/InsertionSort
     -- src/QuickSort.cpp will be compiled to bin/QuickSort
